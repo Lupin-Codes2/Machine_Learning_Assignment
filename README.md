@@ -1,2 +1,25 @@
-# Machine_Learning_Assignment
-A full-stack ML app using FastAPI and scikit-learn. train_models.py cleans the games dataset, trains a LinearRegression (votes) and a LogisticRegression (genre), reports R² and accuracy, and saves both with joblib. app.py loads them and serves two POST endpoints, /predict/regression and /predict/classification. An HTML page has a form for each.
+# Full-Stack Machine Learning App
+- A FastAPI web app that trains and serves two scikit-learn models using the included **Top 1000 games of all time.csv** dataset:
+
+- **Vote-count regression:** LinearRegression predicts the number of votes from game ranking and release year. The held-out **R²** is printed during training and returned by the API.
+- **Primary-genre classification:** LogisticRegression predicts a game's first listed genre from ranking, release year, and vote count. Genres with fewer than 15 examples are grouped as `Other`. The held-out **accuracy** is printed during training and returned by the API.
+
+The CSV contains some blank or incomplete rows; the training script skips those rows and trains on the remaining valid records. Both fitted models and their metadata are saved as joblib files under models.
+
+With the included CSV and the script's fixed 80/20 split, the current held-out scores are **R² = 0.4816** and **accuracy = 0.8400**. Training prints fresh scores when rerun. The genre data is imbalanced (most games are Action), so accuracy should be read in that context.
+
+## Run locally
+
+Requires Python 3.10 or newer.
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python train_models.py
+uvicorn app:app --reload
+```
+Open <http://127.0.0.1:8000> for the prediction forms. Interactive API documentation is at <http://127.0.0.1:8000/docs>.
+
+## API
+Both endpoints validate input and return a JSON prediction along with the relevant held-out model metric.
