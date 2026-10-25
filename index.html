@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore video game vote prediction and genre classification using scikit-learn.">
+    <title>ML Studio | Model Playground</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="ML Studio home"><span class="brand-mark">M</span> ML Studio</a>
+      <div class="header-meta">
+        <span class="student-credit">Muhammad Moiz Masood • FA24-BBD-136</span>
+        <span class="status"><span class="status-dot"></span> Models ready</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p class="eyebrow">INTERACTIVE MODEL PLAYGROUND</p>
+        <h1>Machine learning,<br><span>made tangible.</span></h1>
+        <p class="intro-copy">Explore two machine learning models trained on a list of the all-time top 1,000 video games.</p>
+      </section>
+
+      <section class="model-grid" aria-label="Machine learning models">
+        <article class="model-card">
+          <div class="card-heading">
+            <div class="model-icon house-icon" aria-hidden="true">↗</div>
+            <span class="model-type">REGRESSION</span>
+          </div>
+          <h2>Vote count predictor</h2>
+          <p class="card-description">Estimate a game's number of votes from its ranking and release year.</p>
+          <div class="metric"><span class="metric-label">TEST R²</span><span id="regression-metric" class="metric-value">Linear regression</span></div>
+          <form id="regression-form">
+            <div class="form-grid">
+              <label>Game ranking<input name="ranking" type="number" min="1" max="1000" step="any" value="1" required></label>
+              <label>Release year<input name="year" type="number" min="1950" max="2030" value="2013" required></label>
+            </div>
+            <button type="submit">Predict vote count <span aria-hidden="true">→</span></button>
+          </form>
+          <div class="result" id="regression-result" role="status" aria-live="polite" hidden></div>
+        </article>
+
+        <article class="model-card">
+          <div class="card-heading">
+            <div class="model-icon flower-icon" aria-hidden="true">✳</div>
+            <span class="model-type">CLASSIFICATION</span>
+          </div>
+          <h2>Game genre classifier</h2>
+          <p class="card-description">Predict a game's primary genre from its ranking, release year, and votes.</p>
+          <div class="metric"><span class="metric-label">TEST ACCURACY</span><span id="classification-metric" class="metric-value">Logistic regression</span></div>
+          <form id="classification-form">
+            <div class="form-grid">
+              <label>Game ranking<input name="ranking" type="number" min="1" max="1000" step="any" value="1" required></label>
+              <label>Release year<input name="year" type="number" min="1950" max="2030" value="2013" required></label>
+              <label>Vote count<input name="votes" type="number" min="0" max="10000000" value="63580" required></label>
+            </div>
+            <button type="submit">Predict genre <span aria-hidden="true">→</span></button>
+          </form>
+          <div class="result" id="classification-result" role="status" aria-live="polite" hidden></div>
+        </article>
+      </section>
+    </main>
+
+    <footer><span>Built with FastAPI &amp; scikit-learn</span><a href="/docs">Explore the API <span aria-hidden="true">↗</span></a></footer>
+  </body>
+</html>
