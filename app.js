@@ -1,5 +1,7 @@
 const modelStatus = document.getElementById("model-status");
-const modelUrl = new URL("./model-parameters.json", document.currentScript.src);
+const scriptUrl = new URL(document.currentScript.src);
+const modelUrl = new URL("./model-parameters.json", scriptUrl);
+modelUrl.search = scriptUrl.search;
 
 function predictVotes(features, model) {
   const [rankingCoefficient, yearCoefficient] = model.coefficients;
