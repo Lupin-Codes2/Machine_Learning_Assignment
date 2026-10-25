@@ -23,3 +23,7 @@ Open <http://127.0.0.1:8000> for the prediction forms. Interactive API documenta
 
 ## API
 Both endpoints validate input and return a JSON prediction along with the relevant held-out model metric.
+
+## GitHub Pages
+
+The published GitHub Pages site is fully static. It loads the trained model parameters from `model-parameters.json` and runs both predictions in the visitor's browser, so it does not need a running FastAPI server. Keep this file in sync with the fitted models whenever you retrain them.
