@@ -121,10 +121,14 @@ async function initialize() {
     metricId: "classification-metric",
     predict: (features) => predictGenre(features, models.classification),
     format: ({ genre, confidence }, features) => {
+      const selectedGame = gamesByName.get(features.game.toLocaleLowerCase());
       const gameContext = features.game
-        ? ` for ${features.game} (#${features.ranking}, ${features.year}, ${features.votes.toLocaleString("en-US")} votes)`
+        ? `For ${features.game} (#${features.ranking}, ${features.year}, ${features.votes.toLocaleString("en-US")} votes), `
+        : "For these inputs, ";
+      const listedGenres = selectedGame
+        ? ` Dataset genres: ${selectedGame.genres.join(", ")}.`
         : "";
-      return `Predicted primary genre${gameContext}: ${genre} · Confidence ${(confidence * 100).toFixed(1)}%`;
+      return `${gameContext}the model predicts ${genre} as the primary genre (${(confidence * 100).toFixed(1)}% confidence; ${(models.classification.accuracy * 100).toFixed(1)}% test accuracy).${listedGenres}`;
     },
     metric: () => `Accuracy ${(models.classification.accuracy * 100).toFixed(1)}%`,
   });
