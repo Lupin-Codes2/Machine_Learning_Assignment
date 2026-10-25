@@ -49,10 +49,11 @@
             <span class="model-type">CLASSIFICATION</span>
           </div>
           <h2>Game genre classifier</h2>
-          <p class="card-description">Predict a game's primary genre from its ranking, release year, and votes.</p>
+          <p class="card-description">Choose a game to fill in its details, or enter its ranking, release year, and votes.</p>
           <div class="metric"><span class="metric-label">TEST ACCURACY</span><span id="classification-metric" class="metric-value">Logistic regression</span></div>
           <form id="classification-form">
             <div class="form-grid">
+              <label>Game name (optional)<input name="game" type="text" list="game-options" placeholder="Search the top 1,000 games" autocomplete="off"><datalist id="game-options"></datalist></label>
               <label>Game ranking<input name="ranking" type="number" min="1" max="1000" step="any" value="1" required></label>
               <label>Release year<input name="year" type="number" min="1950" max="2030" value="2013" required></label>
               <label>Vote count<input name="votes" type="number" min="0" max="10000000" value="63580" required></label>

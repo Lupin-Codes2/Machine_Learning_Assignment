@@ -1,22 +1,6067 @@
 {
   "regression": {
-    "coefficients": [-12.291942944539588, 32.52957052724108],
+    "coefficients": [
+      -12.291942944539588,
+      32.52957052724108
+    ],
     "intercept": -55238.57216304793,
     "r2": 0.4816
   },
   "classification": {
-    "classes": ["Action", "Adventure", "Animation", "Drama", "Other", "Sport"],
-    "mean": [502.61229611041404, 2007.6524466750313, 3794.5495608531996],
-    "scale": [289.7398980661194, 8.01275079599227, 5297.784423782144],
-    "coefficients": [
-      [-0.22958125747467023, -0.2504998971383263, 0.4077109730409266],
-      [0.11519344205596187, -0.024229273642795826, -0.05269311717348374],
-      [-0.10853901280708139, -0.0668149688988487, -0.42019863723894274],
-      [-0.7379230872049385, 0.3208402686494652, 0.08313434748538022],
-      [0.2506827337546612, -0.1353215242870621, 0.3501519115026828],
-      [0.7101671816760627, 0.15602539531756587, -0.36810547761656365]
+    "classes": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Drama",
+      "Other",
+      "Sport"
     ],
-    "intercepts": [3.048007993377798, 0.320750234089542, -0.9228309252906189, -0.8557287523797458, -0.14720169707560202, -1.4429968527213142],
+    "mean": [
+      502.61229611041404,
+      2007.6524466750313,
+      3794.5495608531996
+    ],
+    "scale": [
+      289.7398980661194,
+      8.01275079599227,
+      5297.784423782144
+    ],
+    "coefficients": [
+      [
+        -0.22958125747467023,
+        -0.2504998971383263,
+        0.4077109730409266
+      ],
+      [
+        0.11519344205596187,
+        -0.024229273642795826,
+        -0.05269311717348374
+      ],
+      [
+        -0.10853901280708139,
+        -0.0668149688988487,
+        -0.42019863723894274
+      ],
+      [
+        -0.7379230872049385,
+        0.3208402686494652,
+        0.08313434748538022
+      ],
+      [
+        0.2506827337546612,
+        -0.1353215242870621,
+        0.3501519115026828
+      ],
+      [
+        0.7101671816760627,
+        0.15602539531756587,
+        -0.36810547761656365
+      ]
+    ],
+    "intercepts": [
+      3.048007993377798,
+      0.320750234089542,
+      -0.9228309252906189,
+      -0.8557287523797458,
+      -0.14720169707560202,
+      -1.4429968527213142
+    ],
     "accuracy": 0.84
-  }
+  },
+  "games": [
+    {
+      "name": "The Last of Us",
+      "ranking": 1,
+      "year": 2013,
+      "votes": 63580
+    },
+    {
+      "name": "Grand Theft Auto V",
+      "ranking": 2,
+      "year": 2013,
+      "votes": 62492
+    },
+    {
+      "name": "Grand Theft Auto: San Andreas",
+      "ranking": 3,
+      "year": 2004,
+      "votes": 40606
+    },
+    {
+      "name": "Red Dead Redemption II",
+      "ranking": 4,
+      "year": 2018,
+      "votes": 39717
+    },
+    {
+      "name": "Grand Theft Auto IV",
+      "ranking": 5,
+      "year": 2008,
+      "votes": 35206
+    },
+    {
+      "name": "The Last of Us: Part II",
+      "ranking": 6,
+      "year": 2020,
+      "votes": 32505
+    },
+    {
+      "name": "Batman: Arkham City",
+      "ranking": 7,
+      "year": 2011,
+      "votes": 31686
+    },
+    {
+      "name": "The Elder Scrolls V: Skyrim",
+      "ranking": 8,
+      "year": 2011,
+      "votes": 30500
+    },
+    {
+      "name": "Uncharted 4: A Thief's End",
+      "ranking": 9,
+      "year": 2016,
+      "votes": 30350
+    },
+    {
+      "name": "God of War",
+      "ranking": 10,
+      "year": 2018,
+      "votes": 30086
+    },
+    {
+      "name": "Batman: Arkham Asylum",
+      "ranking": 11,
+      "year": 2009,
+      "votes": 28417
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "ranking": 12,
+      "year": 2015,
+      "votes": 27922
+    },
+    {
+      "name": "Red Dead Redemption",
+      "ranking": 13,
+      "year": 2010,
+      "votes": 27344
+    },
+    {
+      "name": "Grand Theft Auto: Vice City",
+      "ranking": 14,
+      "year": 2002,
+      "votes": 27047
+    },
+    {
+      "name": "Uncharted 2: Among Thieves",
+      "ranking": 15,
+      "year": 2009,
+      "votes": 25772
+    },
+    {
+      "name": "Call of Duty: Modern Warfare 2",
+      "ranking": 16,
+      "year": 2009,
+      "votes": 24101
+    },
+    {
+      "name": "Assassin's Creed II",
+      "ranking": 17,
+      "year": 2009,
+      "votes": 23706
+    },
+    {
+      "name": "Call of Duty: Modern Warfare",
+      "ranking": 18,
+      "year": 2007,
+      "votes": 22947
+    },
+    {
+      "name": "Spider-Man",
+      "ranking": 19,
+      "year": 2018,
+      "votes": 22722
+    },
+    {
+      "name": "Uncharted 3: Drake's Deception",
+      "ranking": 20,
+      "year": 2011,
+      "votes": 22595
+    },
+    {
+      "name": "Uncharted: Drake's Fortune",
+      "ranking": 21,
+      "year": 2007,
+      "votes": 20943
+    },
+    {
+      "name": "BioShock Infinite",
+      "ranking": 22,
+      "year": 2013,
+      "votes": 20562
+    },
+    {
+      "name": "Mass Effect 2",
+      "ranking": 23,
+      "year": 2010,
+      "votes": 20258
+    },
+    {
+      "name": "BioShock",
+      "ranking": 24,
+      "year": 2007,
+      "votes": 20235
+    },
+    {
+      "name": "Batman: Arkham Knight",
+      "ranking": 25,
+      "year": 2015,
+      "votes": 20111
+    },
+    {
+      "name": "Call of Duty: Black Ops",
+      "ranking": 26,
+      "year": 2010,
+      "votes": 19672
+    },
+    {
+      "name": "Far Cry 3",
+      "ranking": 27,
+      "year": 2012,
+      "votes": 19369
+    },
+    {
+      "name": "Fallout 3",
+      "ranking": 28,
+      "year": 2008,
+      "votes": 19184
+    },
+    {
+      "name": "Assassin's Creed",
+      "ranking": 29,
+      "year": 2007,
+      "votes": 18997
+    },
+    {
+      "name": "Tomb Raider",
+      "ranking": 30,
+      "year": 2013,
+      "votes": 18927
+    },
+    {
+      "name": "Mass Effect",
+      "ranking": 31,
+      "year": 2007,
+      "votes": 18535
+    },
+    {
+      "name": "Call of Duty: Modern Warfare 3",
+      "ranking": 32,
+      "year": 2011,
+      "votes": 18408
+    },
+    {
+      "name": "Detroit: Become Human",
+      "ranking": 33,
+      "year": 2018,
+      "votes": 18161
+    },
+    {
+      "name": "Assassin's Creed IV: Black Flag",
+      "ranking": 34,
+      "year": 2013,
+      "votes": 17523
+    },
+    {
+      "name": "Assassin's Creed III",
+      "ranking": 35,
+      "year": 2012,
+      "votes": 17292
+    },
+    {
+      "name": "Half-Life 2",
+      "ranking": 36,
+      "year": 2004,
+      "votes": 16398
+    },
+    {
+      "name": "Portal 2",
+      "ranking": 37,
+      "year": 2011,
+      "votes": 16057
+    },
+    {
+      "name": "Grand Theft Auto III",
+      "ranking": 38,
+      "year": 2001,
+      "votes": 16006
+    },
+    {
+      "name": "Assassin's Creed: Brotherhood",
+      "ranking": 39,
+      "year": 2010,
+      "votes": 15972
+    },
+    {
+      "name": "Mass Effect 3",
+      "ranking": 40,
+      "year": 2012,
+      "votes": 15844
+    },
+    {
+      "name": "L.A. Noire",
+      "ranking": 41,
+      "year": 2011,
+      "votes": 15687
+    },
+    {
+      "name": "Horizon Zero Dawn",
+      "ranking": 42,
+      "year": 2017,
+      "votes": 15531
+    },
+    {
+      "name": "Max Payne",
+      "ranking": 43,
+      "year": 2001,
+      "votes": 15269
+    },
+    {
+      "name": "Until Dawn",
+      "ranking": 44,
+      "year": 2015,
+      "votes": 15140
+    },
+    {
+      "name": "Call of Duty: Black Ops II",
+      "ranking": 45,
+      "year": 2012,
+      "votes": 14339
+    },
+    {
+      "name": "Batman: Arkham Origins",
+      "ranking": 46,
+      "year": 2013,
+      "votes": 14016
+    },
+    {
+      "name": "Batman Begins",
+      "ranking": 47,
+      "year": 2005,
+      "votes": 13867
+    },
+    {
+      "name": "Heavy Rain",
+      "ranking": 48,
+      "year": 2010,
+      "votes": 13775
+    },
+    {
+      "name": "Resident Evil 4",
+      "ranking": 49,
+      "year": 2005,
+      "votes": 13566
+    },
+    {
+      "name": "Assassin's Creed: Revelations",
+      "ranking": 50,
+      "year": 2011,
+      "votes": 13418
+    },
+    {
+      "name": "Fallout 4",
+      "ranking": 51,
+      "year": 2015,
+      "votes": 13233
+    },
+    {
+      "name": "The Walking Dead",
+      "ranking": 52,
+      "year": 2012,
+      "votes": 13173
+    },
+    {
+      "name": "Portal",
+      "ranking": 53,
+      "year": 2007,
+      "votes": 13100
+    },
+    {
+      "name": "Fallout: New Vegas",
+      "ranking": 54,
+      "year": 2010,
+      "votes": 12611
+    },
+    {
+      "name": "Star Wars Jedi: Fallen Order",
+      "ranking": 55,
+      "year": 2019,
+      "votes": 12567
+    },
+    {
+      "name": "The Elder Scrolls IV: Oblivion",
+      "ranking": 56,
+      "year": 2006,
+      "votes": 12462
+    },
+    {
+      "name": "Life Is Strange",
+      "ranking": 57,
+      "year": 2015,
+      "votes": 12285
+    },
+    {
+      "name": "Beyond: Two Souls",
+      "ranking": 58,
+      "year": 2013,
+      "votes": 12176
+    },
+    {
+      "name": "Halo 3",
+      "ranking": 59,
+      "year": 2007,
+      "votes": 12092
+    },
+    {
+      "name": "Pirates of the Caribbean: The Legend of Jack Sparrow",
+      "ranking": 60,
+      "year": 2006,
+      "votes": 12023
+    },
+    {
+      "name": "Metal Gear Solid",
+      "ranking": 61,
+      "year": 1998,
+      "votes": 11971
+    },
+    {
+      "name": "The Fifth Element",
+      "ranking": 62,
+      "year": 1998,
+      "votes": 11962
+    },
+    {
+      "name": "Call of Duty: World at War",
+      "ranking": 63,
+      "year": 2008,
+      "votes": 11900
+    },
+    {
+      "name": "Minecraft",
+      "ranking": 64,
+      "year": 2009,
+      "votes": 11548
+    },
+    {
+      "name": "Halo: Combat Evolved",
+      "ranking": 65,
+      "year": 2001,
+      "votes": 11414
+    },
+    {
+      "name": "God of War III",
+      "ranking": 66,
+      "year": 2010,
+      "votes": 11122
+    },
+    {
+      "name": "Max Payne 2: The Fall of Max Payne",
+      "ranking": 67,
+      "year": 2003,
+      "votes": 10873
+    },
+    {
+      "name": "Metal Gear Solid 4: Guns of the Patriots",
+      "ranking": 68,
+      "year": 2008,
+      "votes": 10743
+    },
+    {
+      "name": "Final Fantasy VII",
+      "ranking": 69,
+      "year": 1997,
+      "votes": 10727
+    },
+    {
+      "name": "God of War",
+      "ranking": 70,
+      "year": 2005,
+      "votes": 10712
+    },
+    {
+      "name": "Max Payne 3",
+      "ranking": 71,
+      "year": 2012,
+      "votes": 10711
+    },
+    {
+      "name": "Mafia II",
+      "ranking": 72,
+      "year": 2010,
+      "votes": 10627
+    },
+    {
+      "name": "Metal Gear Solid 3: Snake Eater",
+      "ranking": 73,
+      "year": 2004,
+      "votes": 10615
+    },
+    {
+      "name": "Half-Life",
+      "ranking": 74,
+      "year": 1998,
+      "votes": 10387
+    },
+    {
+      "name": "The Last of Us: Left Behind",
+      "ranking": 75,
+      "year": 2014,
+      "votes": 10228
+    },
+    {
+      "name": "Ghost of Tsushima",
+      "ranking": 76,
+      "year": 2020,
+      "votes": 10129
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "ranking": 77,
+      "year": 2020,
+      "votes": 10118
+    },
+    {
+      "name": "Far Cry 4",
+      "ranking": 78,
+      "year": 2014,
+      "votes": 10035
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "ranking": 79,
+      "year": 1998,
+      "votes": 9785
+    },
+    {
+      "name": "BioShock 2",
+      "ranking": 80,
+      "year": 2010,
+      "votes": 9780
+    },
+    {
+      "name": "Dead Space",
+      "ranking": 81,
+      "year": 2008,
+      "votes": 9778
+    },
+    {
+      "name": "Halo 2",
+      "ranking": 82,
+      "year": 2004,
+      "votes": 9771
+    },
+    {
+      "name": "Rise of the Tomb Raider",
+      "ranking": 83,
+      "year": 2015,
+      "votes": 9733
+    },
+    {
+      "name": "Quantum of Solace",
+      "ranking": 84,
+      "year": 2008,
+      "votes": 9609
+    },
+    {
+      "name": "God of War II",
+      "ranking": 85,
+      "year": 2007,
+      "votes": 9601
+    },
+    {
+      "name": "Battlefield 3",
+      "ranking": 86,
+      "year": 2011,
+      "votes": 9053
+    },
+    {
+      "name": "Watch Dogs",
+      "ranking": 87,
+      "year": 2014,
+      "votes": 8993
+    },
+    {
+      "name": "Dishonored",
+      "ranking": 88,
+      "year": 2012,
+      "votes": 8917
+    },
+    {
+      "name": "Death Stranding",
+      "ranking": 89,
+      "year": 2019,
+      "votes": 8852
+    },
+    {
+      "name": "Call of Duty: Ghosts",
+      "ranking": 90,
+      "year": 2013,
+      "votes": 8839
+    },
+    {
+      "name": "Gears of War",
+      "ranking": 91,
+      "year": 2006,
+      "votes": 8829
+    },
+    {
+      "name": "God of War: Ragnarök",
+      "ranking": 92,
+      "year": 2022,
+      "votes": 8817
+    },
+    {
+      "name": "Star Wars: Knights of the Old Republic",
+      "ranking": 93,
+      "year": 2003,
+      "votes": 8750
+    },
+    {
+      "name": "Metal Gear Solid 2: Sons of Liberty",
+      "ranking": 94,
+      "year": 2001,
+      "votes": 8672
+    },
+    {
+      "name": "Resident Evil 5",
+      "ranking": 95,
+      "year": 2009,
+      "votes": 8636
+    },
+    {
+      "name": "Assassin's Creed: Origins",
+      "ranking": 96,
+      "year": 2017,
+      "votes": 8411
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt - Blood and Wine",
+      "ranking": 97,
+      "year": 2016,
+      "votes": 8302
+    },
+    {
+      "name": "Resident Evil VII: Biohazard",
+      "ranking": 98,
+      "year": 2017,
+      "votes": 8186
+    },
+    {
+      "name": "Final Fantasy X",
+      "ranking": 99,
+      "year": 2001,
+      "votes": 8087
+    },
+    {
+      "name": "Dragon Age: Origins",
+      "ranking": 100,
+      "year": 2009,
+      "votes": 8077
+    },
+    {
+      "name": "Call of Duty: Advanced Warfare",
+      "ranking": 101,
+      "year": 2014,
+      "votes": 7991
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "ranking": 102,
+      "year": 2017,
+      "votes": 7737
+    },
+    {
+      "name": "Metal Gear Solid V: The Phantom Pain",
+      "ranking": 103,
+      "year": 2015,
+      "votes": 7721
+    },
+    {
+      "name": "Assassin's Creed: Odyssey",
+      "ranking": 104,
+      "year": 2018,
+      "votes": 7709
+    },
+    {
+      "name": "Resident Evil 2",
+      "ranking": 105,
+      "year": 2019,
+      "votes": 7608
+    },
+    {
+      "name": "Uncharted: The Lost Legacy",
+      "ranking": 106,
+      "year": 2017,
+      "votes": 7582
+    },
+    {
+      "name": "Star Wars: The Force Unleashed",
+      "ranking": 107,
+      "year": 2008,
+      "votes": 7540
+    },
+    {
+      "name": "Kingdom Hearts",
+      "ranking": 108,
+      "year": 2002,
+      "votes": 7453
+    },
+    {
+      "name": "The Walking Dead: Season Two",
+      "ranking": 109,
+      "year": 2013,
+      "votes": 7406
+    },
+    {
+      "name": "Far Cry 5",
+      "ranking": 110,
+      "year": 2018,
+      "votes": 7373
+    },
+    {
+      "name": "The Wolf Among Us",
+      "ranking": 111,
+      "year": 2013,
+      "votes": 7363
+    },
+    {
+      "name": "Battlefield 4",
+      "ranking": 112,
+      "year": 2013,
+      "votes": 7354
+    },
+    {
+      "name": "Assassin's Creed: Unity",
+      "ranking": 113,
+      "year": 2014,
+      "votes": 7292
+    },
+    {
+      "name": "Kingdom Hearts II",
+      "ranking": 114,
+      "year": 2005,
+      "votes": 7250
+    },
+    {
+      "name": "Call of Duty: Black Ops III",
+      "ranking": 115,
+      "year": 2015,
+      "votes": 7147
+    },
+    {
+      "name": "Fortnite",
+      "ranking": 116,
+      "year": 2017,
+      "votes": 7137
+    },
+    {
+      "name": "Need for Speed: Most Wanted",
+      "ranking": 117,
+      "year": 2005,
+      "votes": 7096
+    },
+    {
+      "name": "Sleeping Dogs",
+      "ranking": 118,
+      "year": 2012,
+      "votes": 7076
+    },
+    {
+      "name": "Halo: Reach",
+      "ranking": 119,
+      "year": 2010,
+      "votes": 7031
+    },
+    {
+      "name": "Halo 4",
+      "ranking": 120,
+      "year": 2012,
+      "votes": 7018
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "ranking": 121,
+      "year": 2020,
+      "votes": 6995
+    },
+    {
+      "name": "Call of Duty",
+      "ranking": 122,
+      "year": 2003,
+      "votes": 6951
+    },
+    {
+      "name": "Left 4 Dead 2",
+      "ranking": 123,
+      "year": 2009,
+      "votes": 6949
+    },
+    {
+      "name": "Battlefield 1",
+      "ranking": 124,
+      "year": 2016,
+      "votes": 6914
+    },
+    {
+      "name": "Call of Duty 2",
+      "ranking": 125,
+      "year": 2005,
+      "votes": 6913
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt - Hearts of Stone",
+      "ranking": 126,
+      "year": 2015,
+      "votes": 6911
+    },
+    {
+      "name": "Silent Hill 2",
+      "ranking": 127,
+      "year": 2001,
+      "votes": 6850
+    },
+    {
+      "name": "Star Wars: Battlefront II",
+      "ranking": 128,
+      "year": 2005,
+      "votes": 6847
+    },
+    {
+      "name": "Star Wars: Battlefront II",
+      "ranking": 129,
+      "year": 2017,
+      "votes": 6818
+    },
+    {
+      "name": "Dead Space 2",
+      "ranking": 130,
+      "year": 2011,
+      "votes": 6750
+    },
+    {
+      "name": "Assassin's Creed: Syndicate",
+      "ranking": 131,
+      "year": 2015,
+      "votes": 6721
+    },
+    {
+      "name": "Call of Duty: WWII",
+      "ranking": 132,
+      "year": 2017,
+      "votes": 6628
+    },
+    {
+      "name": "Hitman: Absolution",
+      "ranking": 133,
+      "year": 2012,
+      "votes": 6572
+    },
+    {
+      "name": "Borderlands 2",
+      "ranking": 134,
+      "year": 2012,
+      "votes": 6545
+    },
+    {
+      "name": "Days Gone",
+      "ranking": 135,
+      "year": 2019,
+      "votes": 6524
+    },
+    {
+      "name": "Injustice: Gods Among Us",
+      "ranking": 136,
+      "year": 2013,
+      "votes": 6484
+    },
+    {
+      "name": "Super Mario Bros.",
+      "ranking": 137,
+      "year": 1985,
+      "votes": 6387
+    },
+    {
+      "name": "Half-Life 2: Episode Two",
+      "ranking": 138,
+      "year": 2007,
+      "votes": 6353
+    },
+    {
+      "name": "Super Mario 64",
+      "ranking": 139,
+      "year": 1996,
+      "votes": 6320
+    },
+    {
+      "name": "Saints Row: The Third",
+      "ranking": 140,
+      "year": 2011,
+      "votes": 6252
+    },
+    {
+      "name": "Doom",
+      "ranking": 141,
+      "year": 2016,
+      "votes": 6232
+    },
+    {
+      "name": "Final Fantasy VIII",
+      "ranking": 142,
+      "year": 1999,
+      "votes": 6159
+    },
+    {
+      "name": "Left 4 Dead",
+      "ranking": 143,
+      "year": 2008,
+      "votes": 6143
+    },
+    {
+      "name": "Alan Wake",
+      "ranking": 144,
+      "year": 2010,
+      "votes": 6045
+    },
+    {
+      "name": "Mafia: The City of Lost Heaven",
+      "ranking": 145,
+      "year": 2002,
+      "votes": 6036
+    },
+    {
+      "name": "Resident Evil 2",
+      "ranking": 146,
+      "year": 1998,
+      "votes": 5997
+    },
+    {
+      "name": "The Witcher 2: Assassins of Kings",
+      "ranking": 147,
+      "year": 2011,
+      "votes": 5977
+    },
+    {
+      "name": "Bloodborne",
+      "ranking": 148,
+      "year": 2015,
+      "votes": 5907
+    },
+    {
+      "name": "Wolfenstein: The New Order",
+      "ranking": 149,
+      "year": 2014,
+      "votes": 5820
+    },
+    {
+      "name": "Silent Hill",
+      "ranking": 150,
+      "year": 1999,
+      "votes": 5818
+    },
+    {
+      "name": "Middle-Earth: Shadow of Mordor",
+      "ranking": 151,
+      "year": 2014,
+      "votes": 5807
+    },
+    {
+      "name": "Call of Duty: Modern Warfare",
+      "ranking": 152,
+      "year": 2019,
+      "votes": 5788
+    },
+    {
+      "name": "World of Warcraft",
+      "ranking": 153,
+      "year": 2004,
+      "votes": 5713
+    },
+    {
+      "name": "Limbo",
+      "ranking": 154,
+      "year": 2010,
+      "votes": 5704
+    },
+    {
+      "name": "Elden Ring",
+      "ranking": 155,
+      "year": 2022,
+      "votes": 5698
+    },
+    {
+      "name": "GoldenEye 007",
+      "ranking": 156,
+      "year": 1997,
+      "votes": 5690
+    },
+    {
+      "name": "Deus Ex: Human Revolution",
+      "ranking": 157,
+      "year": 2011,
+      "votes": 5657
+    },
+    {
+      "name": "Shadow of the Tomb Raider",
+      "ranking": 158,
+      "year": 2018,
+      "votes": 5631
+    },
+    {
+      "name": "Uncharted: The Nathan Drake Collection",
+      "ranking": 159,
+      "year": 2015,
+      "votes": 5631
+    },
+    {
+      "name": "Alien: Isolation",
+      "ranking": 160,
+      "year": 2014,
+      "votes": 5630
+    },
+    {
+      "name": "Gears of War 2",
+      "ranking": 161,
+      "year": 2008,
+      "votes": 5595
+    },
+    {
+      "name": "Hitman: Blood Money",
+      "ranking": 162,
+      "year": 2006,
+      "votes": 5577
+    },
+    {
+      "name": "Resident Evil",
+      "ranking": 163,
+      "year": 1996,
+      "votes": 5543
+    },
+    {
+      "name": "Half-Life 2: Episode One",
+      "ranking": 164,
+      "year": 2006,
+      "votes": 5493
+    },
+    {
+      "name": "Super Mario Galaxy",
+      "ranking": 165,
+      "year": 2007,
+      "votes": 5485
+    },
+    {
+      "name": "Crysis",
+      "ranking": 166,
+      "year": 2007,
+      "votes": 5451
+    },
+    {
+      "name": "Mass Effect: Andromeda",
+      "ranking": 167,
+      "year": 2017,
+      "votes": 5428
+    },
+    {
+      "name": "Bully",
+      "ranking": 168,
+      "year": 2006,
+      "votes": 5397
+    },
+    {
+      "name": "Super Mario Bros. 3",
+      "ranking": 169,
+      "year": 1988,
+      "votes": 5348
+    },
+    {
+      "name": "Spider-Man 2",
+      "ranking": 170,
+      "year": 2004,
+      "votes": 5320
+    },
+    {
+      "name": "StarCraft",
+      "ranking": 171,
+      "year": 1998,
+      "votes": 5278
+    },
+    {
+      "name": "Resident Evil Village",
+      "ranking": 172,
+      "year": 2021,
+      "votes": 5275
+    },
+    {
+      "name": "Star Wars: Battlefront",
+      "ranking": 173,
+      "year": 2015,
+      "votes": 5270
+    },
+    {
+      "name": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+      "ranking": 174,
+      "year": 2004,
+      "votes": 5250
+    },
+    {
+      "name": "Overwatch",
+      "ranking": 175,
+      "year": 2016,
+      "votes": 5158
+    },
+    {
+      "name": "Destiny",
+      "ranking": 176,
+      "year": 2014,
+      "votes": 5142
+    },
+    {
+      "name": "Prince of Persia: The Sands of Time",
+      "ranking": 177,
+      "year": 2003,
+      "votes": 5115
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess",
+      "ranking": 178,
+      "year": 2006,
+      "votes": 5114
+    },
+    {
+      "name": "Crysis 2",
+      "ranking": 179,
+      "year": 2011,
+      "votes": 5103
+    },
+    {
+      "name": "Dark Souls",
+      "ranking": 180,
+      "year": 2011,
+      "votes": 5095
+    },
+    {
+      "name": "Doom",
+      "ranking": 181,
+      "year": 1993,
+      "votes": 5085
+    },
+    {
+      "name": "Final Fantasy IX",
+      "ranking": 182,
+      "year": 2000,
+      "votes": 5069
+    },
+    {
+      "name": "Dragon Age: Inquisition",
+      "ranking": 183,
+      "year": 2014,
+      "votes": 5059
+    },
+    {
+      "name": "South Park: The Stick of Truth",
+      "ranking": 184,
+      "year": 2014,
+      "votes": 4985
+    },
+    {
+      "name": "Dragon Age II",
+      "ranking": 185,
+      "year": 2011,
+      "votes": 4982
+    },
+    {
+      "name": "Super Mario World",
+      "ranking": 186,
+      "year": 1990,
+      "votes": 4982
+    },
+    {
+      "name": "Borderlands",
+      "ranking": 187,
+      "year": 2009,
+      "votes": 4939
+    },
+    {
+      "name": "Grand Theft Auto: Vice City Stories",
+      "ranking": 188,
+      "year": 2006,
+      "votes": 4910
+    },
+    {
+      "name": "Terminator 3: Rise of the Machines",
+      "ranking": 189,
+      "year": 2003,
+      "votes": 4895
+    },
+    {
+      "name": "Resident Evil 6",
+      "ranking": 190,
+      "year": 2012,
+      "votes": 4889
+    },
+    {
+      "name": "Outlast",
+      "ranking": 191,
+      "year": 2013,
+      "votes": 4868
+    },
+    {
+      "name": "Wolfenstein II: The New Colossus",
+      "ranking": 192,
+      "year": 2017,
+      "votes": 4811
+    },
+    {
+      "name": "Super Smash Bros. Brawl",
+      "ranking": 193,
+      "year": 2008,
+      "votes": 4802
+    },
+    {
+      "name": "Gears of War 3",
+      "ranking": 194,
+      "year": 2011,
+      "votes": 4784
+    },
+    {
+      "name": "Grand Theft Auto IV: The Ballad of Gay Tony",
+      "ranking": 195,
+      "year": 2009,
+      "votes": 4769
+    },
+    {
+      "name": "Resident Evil 3",
+      "ranking": 196,
+      "year": 1999,
+      "votes": 4748
+    },
+    {
+      "name": "Dark Souls III",
+      "ranking": 197,
+      "year": 2016,
+      "votes": 4736
+    },
+    {
+      "name": "inFamous: Second Son",
+      "ranking": 198,
+      "year": 2014,
+      "votes": 4729
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "ranking": 199,
+      "year": 2020,
+      "votes": 4673
+    },
+    {
+      "name": "Halo 3: ODST",
+      "ranking": 200,
+      "year": 2009,
+      "votes": 4659
+    },
+    {
+      "name": "The Witcher",
+      "ranking": 201,
+      "year": 2007,
+      "votes": 4529
+    },
+    {
+      "name": "Game of Thrones: A Telltale Games Series",
+      "ranking": 202,
+      "year": 2014,
+      "votes": 4522
+    },
+    {
+      "name": "Grand Theft Auto IV: The Lost and Damned",
+      "ranking": 203,
+      "year": 2009,
+      "votes": 4471
+    },
+    {
+      "name": "Grand Theft Auto: Liberty City Stories",
+      "ranking": 204,
+      "year": 2005,
+      "votes": 4442
+    },
+    {
+      "name": "Lego Star Wars: The Complete Saga",
+      "ranking": 205,
+      "year": 2007,
+      "votes": 4391
+    },
+    {
+      "name": "Dying Light",
+      "ranking": 206,
+      "year": 2015,
+      "votes": 4384
+    },
+    {
+      "name": "Assassin's Creed: Rogue",
+      "ranking": 207,
+      "year": 2014,
+      "votes": 4382
+    },
+    {
+      "name": "Super Mario Odyssey",
+      "ranking": 208,
+      "year": 2017,
+      "votes": 4364
+    },
+    {
+      "name": "Metro 2033",
+      "ranking": 209,
+      "year": 2010,
+      "votes": 4352
+    },
+    {
+      "name": "Far Cry 2",
+      "ranking": 210,
+      "year": 2008,
+      "votes": 4352
+    },
+    {
+      "name": "Dead Island",
+      "ranking": 211,
+      "year": 2011,
+      "votes": 4326
+    },
+    {
+      "name": "Battlefield: Bad Company 2",
+      "ranking": 212,
+      "year": 2010,
+      "votes": 4316
+    },
+    {
+      "name": "Resident Evil",
+      "ranking": 213,
+      "year": 2002,
+      "votes": 4312
+    },
+    {
+      "name": "Team Fortress 2",
+      "ranking": 214,
+      "year": 2007,
+      "votes": 4290
+    },
+    {
+      "name": "Saints Row IV",
+      "ranking": 215,
+      "year": 2013,
+      "votes": 4284
+    },
+    {
+      "name": "Mafia III",
+      "ranking": 216,
+      "year": 2016,
+      "votes": 4261
+    },
+    {
+      "name": "Star Wars: Battlefront",
+      "ranking": 217,
+      "year": 2004,
+      "votes": 4243
+    },
+    {
+      "name": "Red Dead Redemption: Undead Nightmare",
+      "ranking": 218,
+      "year": 2010,
+      "votes": 4208
+    },
+    {
+      "name": "inFamous",
+      "ranking": 219,
+      "year": 2009,
+      "votes": 4205
+    },
+    {
+      "name": "Doom 3",
+      "ranking": 220,
+      "year": 2004,
+      "votes": 4193
+    },
+    {
+      "name": "Metro: Last Light",
+      "ranking": 221,
+      "year": 2013,
+      "votes": 4187
+    },
+    {
+      "name": "Shadow of the Colossus",
+      "ranking": 222,
+      "year": 2005,
+      "votes": 4169
+    },
+    {
+      "name": "Injustice 2",
+      "ranking": 223,
+      "year": 2017,
+      "votes": 4161
+    },
+    {
+      "name": "Call of Duty: Infinite Warfare",
+      "ranking": 224,
+      "year": 2016,
+      "votes": 4151
+    },
+    {
+      "name": "Mortal Kombat X",
+      "ranking": 225,
+      "year": 2015,
+      "votes": 4126
+    },
+    {
+      "name": "Watch Dogs 2",
+      "ranking": 226,
+      "year": 2016,
+      "votes": 4088
+    },
+    {
+      "name": "Final Fantasy VII Remake",
+      "ranking": 227,
+      "year": 2020,
+      "votes": 4070
+    },
+    {
+      "name": "Mario Kart Wii",
+      "ranking": 228,
+      "year": 2008,
+      "votes": 4064
+    },
+    {
+      "name": "Rocket League",
+      "ranking": 229,
+      "year": 2015,
+      "votes": 4063
+    },
+    {
+      "name": "Diablo II",
+      "ranking": 230,
+      "year": 2000,
+      "votes": 4052
+    },
+    {
+      "name": "Wii Sports",
+      "ranking": 231,
+      "year": 2006,
+      "votes": 4019
+    },
+    {
+      "name": "Marvel's Guardians of the Galaxy",
+      "ranking": 232,
+      "year": 2021,
+      "votes": 4015
+    },
+    {
+      "name": "Tales from the Borderlands: A Telltale Games Series",
+      "ranking": 233,
+      "year": 2014,
+      "votes": 4013
+    },
+    {
+      "name": "Control",
+      "ranking": 234,
+      "year": 2019,
+      "votes": 4010
+    },
+    {
+      "name": "Firewatch",
+      "ranking": 235,
+      "year": 2016,
+      "votes": 4002
+    },
+    {
+      "name": "Mirror's Edge",
+      "ranking": 236,
+      "year": 2008,
+      "votes": 3992
+    },
+    {
+      "name": "Batman: The Telltale Series",
+      "ranking": 237,
+      "year": 2016,
+      "votes": 3984
+    },
+    {
+      "name": "Grand Theft Auto",
+      "ranking": 238,
+      "year": 1997,
+      "votes": 3979
+    },
+    {
+      "name": "Mortal Kombat",
+      "ranking": 239,
+      "year": 2011,
+      "votes": 3977
+    },
+    {
+      "name": "Hellblade: Senua's Sacrifice",
+      "ranking": 240,
+      "year": 2017,
+      "votes": 3945
+    },
+    {
+      "name": "Titanfall 2",
+      "ranking": 241,
+      "year": 2016,
+      "votes": 3929
+    },
+    {
+      "name": "Fallout 2: A Post-Nuclear Role-Playing Game",
+      "ranking": 242,
+      "year": 1998,
+      "votes": 3922
+    },
+    {
+      "name": "Call of Duty 3",
+      "ranking": 243,
+      "year": 2006,
+      "votes": 3915
+    },
+    {
+      "name": "Prince of Persia: Warrior Within",
+      "ranking": 244,
+      "year": 2004,
+      "votes": 3911
+    },
+    {
+      "name": "Dead Space 3",
+      "ranking": 245,
+      "year": 2013,
+      "votes": 3893
+    },
+    {
+      "name": "Inside",
+      "ranking": 246,
+      "year": 2016,
+      "votes": 3861
+    },
+    {
+      "name": "Need for Speed: Underground 2",
+      "ranking": 247,
+      "year": 2004,
+      "votes": 3851
+    },
+    {
+      "name": "Grand Theft Auto 2",
+      "ranking": 248,
+      "year": 1999,
+      "votes": 3846
+    },
+    {
+      "name": "Fallout: A Post-Nuclear Role-Playing Game",
+      "ranking": 249,
+      "year": 1997,
+      "votes": 3835
+    },
+    {
+      "name": "Resident Evil 3",
+      "ranking": 250,
+      "year": 2020,
+      "votes": 3822
+    },
+    {
+      "name": "Silent Hill 3",
+      "ranking": 251,
+      "year": 2003,
+      "votes": 3822
+    },
+    {
+      "name": "The Godfather",
+      "ranking": 252,
+      "year": 2006,
+      "votes": 3810
+    },
+    {
+      "name": "Horizon Forbidden West",
+      "ranking": 253,
+      "year": 2022,
+      "votes": 3809
+    },
+    {
+      "name": "Enter the Matrix",
+      "ranking": 254,
+      "year": 2003,
+      "votes": 3780
+    },
+    {
+      "name": "Life Is Strange: Before the Storm",
+      "ranking": 255,
+      "year": 2017,
+      "votes": 3753
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask",
+      "ranking": 256,
+      "year": 2000,
+      "votes": 3752
+    },
+    {
+      "name": "A Plague Tale: Innocence",
+      "ranking": 257,
+      "year": 2019,
+      "votes": 3706
+    },
+    {
+      "name": "Journey",
+      "ranking": 258,
+      "year": 2012,
+      "votes": 3700
+    },
+    {
+      "name": "Need for Speed: Carbon",
+      "ranking": 259,
+      "year": 2006,
+      "votes": 3696
+    },
+    {
+      "name": "Mortal Kombat 11",
+      "ranking": 260,
+      "year": 2019,
+      "votes": 3673
+    },
+    {
+      "name": "Fainaru fantajî XII",
+      "ranking": 261,
+      "year": 2006,
+      "votes": 3665
+    },
+    {
+      "name": "The Evil Within",
+      "ranking": 262,
+      "year": 2014,
+      "votes": 3663
+    },
+    {
+      "name": "Undertale",
+      "ranking": 263,
+      "year": 2015,
+      "votes": 3657
+    },
+    {
+      "name": "Far Cry",
+      "ranking": 264,
+      "year": 2004,
+      "votes": 3639
+    },
+    {
+      "name": "Spec Ops: The Line",
+      "ranking": 265,
+      "year": 2012,
+      "votes": 3632
+    },
+    {
+      "name": "The Walking Dead: A New Frontier",
+      "ranking": 266,
+      "year": 2016,
+      "votes": 3629
+    },
+    {
+      "name": "Star Wars: The Force Unleashed II",
+      "ranking": 267,
+      "year": 2010,
+      "votes": 3603
+    },
+    {
+      "name": "Warcraft III: Reign of Chaos",
+      "ranking": 268,
+      "year": 2002,
+      "votes": 3593
+    },
+    {
+      "name": "Grim Fandango",
+      "ranking": 269,
+      "year": 1998,
+      "votes": 3583
+    },
+    {
+      "name": "Diablo III",
+      "ranking": 270,
+      "year": 2012,
+      "votes": 3563
+    },
+    {
+      "name": "Lego Marvel Super Heroes",
+      "ranking": 271,
+      "year": 2013,
+      "votes": 3559
+    },
+    {
+      "name": "Half-Life: Counter-Strike",
+      "ranking": 272,
+      "year": 2000,
+      "votes": 3550
+    },
+    {
+      "name": "Counter-Strike: Global Offensive",
+      "ranking": 273,
+      "year": 2012,
+      "votes": 3544
+    },
+    {
+      "name": "What Remains of Edith Finch",
+      "ranking": 274,
+      "year": 2017,
+      "votes": 3541
+    },
+    {
+      "name": "Super Smash Bros. Ultimate",
+      "ranking": 275,
+      "year": 2018,
+      "votes": 3529
+    },
+    {
+      "name": "Final Fantasy XIII",
+      "ranking": 276,
+      "year": 2009,
+      "votes": 3510
+    },
+    {
+      "name": "Mortal Kombat",
+      "ranking": 277,
+      "year": 1992,
+      "votes": 3505
+    },
+    {
+      "name": "Lego Batman: The Videogame",
+      "ranking": 278,
+      "year": 2008,
+      "votes": 3494
+    },
+    {
+      "name": "The Elder Scrolls III: Morrowind",
+      "ranking": 279,
+      "year": 2002,
+      "votes": 3492
+    },
+    {
+      "name": "Mad Max",
+      "ranking": 280,
+      "year": 2015,
+      "votes": 3490
+    },
+    {
+      "name": "X-Men Origins: Wolverine",
+      "ranking": 281,
+      "year": 2009,
+      "votes": 3486
+    },
+    {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "ranking": 282,
+      "year": 1991,
+      "votes": 3484
+    },
+    {
+      "name": "Prince of Persia: The Two Thrones",
+      "ranking": 283,
+      "year": 2005,
+      "votes": 3481
+    },
+    {
+      "name": "Far Cry Primal",
+      "ranking": 284,
+      "year": 2016,
+      "votes": 3459
+    },
+    {
+      "name": "Spider-Man 3",
+      "ranking": 285,
+      "year": 2007,
+      "votes": 3452
+    },
+    {
+      "name": "Age of Empires II: The Age of Kings",
+      "ranking": 286,
+      "year": 1999,
+      "votes": 3430
+    },
+    {
+      "name": "Warcraft III: The Frozen Throne",
+      "ranking": 287,
+      "year": 2003,
+      "votes": 3423
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "ranking": 288,
+      "year": 2002,
+      "votes": 3422
+    },
+    {
+      "name": "Sekiro: Shadows Die Twice",
+      "ranking": 289,
+      "year": 2019,
+      "votes": 3372
+    },
+    {
+      "name": "StarCraft II: Wings of Liberty",
+      "ranking": 290,
+      "year": 2010,
+      "votes": 3362
+    },
+    {
+      "name": "Saints Row 2",
+      "ranking": 291,
+      "year": 2008,
+      "votes": 3343
+    },
+    {
+      "name": "Hitman 2: Silent Assassin",
+      "ranking": 292,
+      "year": 2002,
+      "votes": 3307
+    },
+    {
+      "name": "Sonic the Hedgehog",
+      "ranking": 293,
+      "year": 1991,
+      "votes": 3302
+    },
+    {
+      "name": "Dark Souls II",
+      "ranking": 294,
+      "year": 2014,
+      "votes": 3290
+    },
+    {
+      "name": "Crash Bandicoot",
+      "ranking": 295,
+      "year": 1996,
+      "votes": 3282
+    },
+    {
+      "name": "Destiny 2",
+      "ranking": 296,
+      "year": 2017,
+      "votes": 3279
+    },
+    {
+      "name": "Final Fantasy XV",
+      "ranking": 297,
+      "year": 2016,
+      "votes": 3272
+    },
+    {
+      "name": "Duke Nukem 3D",
+      "ranking": 298,
+      "year": 1996,
+      "votes": 3271
+    },
+    {
+      "name": "Tetris",
+      "ranking": 299,
+      "year": 1984,
+      "votes": 3269
+    },
+    {
+      "name": "Deus Ex",
+      "ranking": 300,
+      "year": 2000,
+      "votes": 3265
+    },
+    {
+      "name": "Final Fantasy VI",
+      "ranking": 301,
+      "year": 1994,
+      "votes": 3256
+    },
+    {
+      "name": "Halo 5: Guardians",
+      "ranking": 302,
+      "year": 2015,
+      "votes": 3233
+    },
+    {
+      "name": "Splinter Cell",
+      "ranking": 303,
+      "year": 2002,
+      "votes": 3233
+    },
+    {
+      "name": "Super Smash Bros. Melee",
+      "ranking": 304,
+      "year": 2001,
+      "votes": 3233
+    },
+    {
+      "name": "Mario Kart 64",
+      "ranking": 305,
+      "year": 1996,
+      "votes": 3224
+    },
+    {
+      "name": "Need for Speed: Underground",
+      "ranking": 306,
+      "year": 2003,
+      "votes": 3219
+    },
+    {
+      "name": "From Russia with Love",
+      "ranking": 307,
+      "year": 2005,
+      "votes": 3214
+    },
+    {
+      "name": "The Sims 2",
+      "ranking": 308,
+      "year": 2004,
+      "votes": 3211
+    },
+    {
+      "name": "The Chronicles of Riddick: Escape from Butcher Bay",
+      "ranking": 309,
+      "year": 2004,
+      "votes": 3210
+    },
+    {
+      "name": "Prototype",
+      "ranking": 310,
+      "year": 2009,
+      "votes": 3190
+    },
+    {
+      "name": "The Secret of Monkey Island",
+      "ranking": 311,
+      "year": 1990,
+      "votes": 3170
+    },
+    {
+      "name": "Final Fantasy X-2",
+      "ranking": 312,
+      "year": 2003,
+      "votes": 3163
+    },
+    {
+      "name": "Doom Eternal",
+      "ranking": 313,
+      "year": 2020,
+      "votes": 3146
+    },
+    {
+      "name": "Splinter Cell: Conviction",
+      "ranking": 314,
+      "year": 2010,
+      "votes": 3134
+    },
+    {
+      "name": "Super Mario Bros. 2",
+      "ranking": 315,
+      "year": 1988,
+      "votes": 3134
+    },
+    {
+      "name": "The Walking Dead: 400 Days",
+      "ranking": 316,
+      "year": 2013,
+      "votes": 3132
+    },
+    {
+      "name": "Indigo Prophecy",
+      "ranking": 317,
+      "year": 2005,
+      "votes": 3123
+    },
+    {
+      "name": "The Lord of the Rings: The Two Towers",
+      "ranking": 318,
+      "year": 2002,
+      "votes": 3121
+    },
+    {
+      "name": "New Super Mario Bros. Wii",
+      "ranking": 319,
+      "year": 2009,
+      "votes": 3121
+    },
+    {
+      "name": "A Way Out",
+      "ranking": 320,
+      "year": 2018,
+      "votes": 3110
+    },
+    {
+      "name": "Star Wars: The Old Republic",
+      "ranking": 321,
+      "year": 2011,
+      "votes": 3104
+    },
+    {
+      "name": "Resident Evil: Code: Veronica",
+      "ranking": 322,
+      "year": 2000,
+      "votes": 3102
+    },
+    {
+      "name": "God of War: Ascension",
+      "ranking": 323,
+      "year": 2013,
+      "votes": 3098
+    },
+    {
+      "name": "Rainbow Six: Siege",
+      "ranking": 324,
+      "year": 2015,
+      "votes": 3098
+    },
+    {
+      "name": "Just Cause 2",
+      "ranking": 325,
+      "year": 2010,
+      "votes": 3088
+    },
+    {
+      "name": "Chrono Trigger",
+      "ranking": 326,
+      "year": 1995,
+      "votes": 3082
+    },
+    {
+      "name": "Ghostbusters",
+      "ranking": 327,
+      "year": 2009,
+      "votes": 3079
+    },
+    {
+      "name": "inFamous 2",
+      "ranking": 328,
+      "year": 2011,
+      "votes": 3077
+    },
+    {
+      "name": "NieR: Automata",
+      "ranking": 329,
+      "year": 2017,
+      "votes": 3066
+    },
+    {
+      "name": "Deadpool",
+      "ranking": 330,
+      "year": 2013,
+      "votes": 3049
+    },
+    {
+      "name": "Among Us",
+      "ranking": 331,
+      "year": 2018,
+      "votes": 3044
+    },
+    {
+      "name": "Tomb Raider",
+      "ranking": 332,
+      "year": 1996,
+      "votes": 3037
+    },
+    {
+      "name": "The Legend of Zelda",
+      "ranking": 333,
+      "year": 1986,
+      "votes": 3028
+    },
+    {
+      "name": "Command & Conquer: Red Alert 2",
+      "ranking": 334,
+      "year": 2000,
+      "votes": 3014
+    },
+    {
+      "name": "Apex Legends",
+      "ranking": 335,
+      "year": 2019,
+      "votes": 3012
+    },
+    {
+      "name": "Super Mario Sunshine",
+      "ranking": 336,
+      "year": 2002,
+      "votes": 3011
+    },
+    {
+      "name": "Metal Gear Solid V: Ground Zeroes",
+      "ranking": 337,
+      "year": 2014,
+      "votes": 3007
+    },
+    {
+      "name": "Doom II: Hell on Earth",
+      "ranking": 338,
+      "year": 1994,
+      "votes": 2999
+    },
+    {
+      "name": "Hitman: Contracts",
+      "ranking": 339,
+      "year": 2004,
+      "votes": 2993
+    },
+    {
+      "name": "Devil May Cry 3: Dante's Awakening",
+      "ranking": 340,
+      "year": 2005,
+      "votes": 2986
+    },
+    {
+      "name": "Cuphead: Don't Deal with the Devil",
+      "ranking": 341,
+      "year": 2017,
+      "votes": 2980
+    },
+    {
+      "name": "Harry Potter and the Chamber of Secrets",
+      "ranking": 342,
+      "year": 2002,
+      "votes": 2968
+    },
+    {
+      "name": "Devil May Cry 4",
+      "ranking": 343,
+      "year": 2008,
+      "votes": 2963
+    },
+    {
+      "name": "F.E.A.R.",
+      "ranking": 344,
+      "year": 2005,
+      "votes": 2963
+    },
+    {
+      "name": "Donkey Kong Country",
+      "ranking": 345,
+      "year": 1994,
+      "votes": 2959
+    },
+    {
+      "name": "Little Nightmares",
+      "ranking": 346,
+      "year": 2017,
+      "votes": 2957
+    },
+    {
+      "name": "Fable",
+      "ranking": 347,
+      "year": 2004,
+      "votes": 2947
+    },
+    {
+      "name": "The Quarry",
+      "ranking": 348,
+      "year": 2022,
+      "votes": 2944
+    },
+    {
+      "name": "Dead Rising",
+      "ranking": 349,
+      "year": 2006,
+      "votes": 2930
+    },
+    {
+      "name": "Dishonored 2",
+      "ranking": 350,
+      "year": 2016,
+      "votes": 2926
+    },
+    {
+      "name": "Crysis 3",
+      "ranking": 351,
+      "year": 2013,
+      "votes": 2926
+    },
+    {
+      "name": "Tekken 3",
+      "ranking": 352,
+      "year": 1997,
+      "votes": 2922
+    },
+    {
+      "name": "DmC: Devil May Cry",
+      "ranking": 353,
+      "year": 2013,
+      "votes": 2913
+    },
+    {
+      "name": "Hitman",
+      "ranking": 354,
+      "year": 2016,
+      "votes": 2902
+    },
+    {
+      "name": "Diablo",
+      "ranking": 355,
+      "year": 1996,
+      "votes": 2900
+    },
+    {
+      "name": "God of War: Chains of Olympus",
+      "ranking": 356,
+      "year": 2008,
+      "votes": 2892
+    },
+    {
+      "name": "Splinter Cell: Chaos Theory",
+      "ranking": 357,
+      "year": 2005,
+      "votes": 2871
+    },
+    {
+      "name": "Silent Hill 4: The Room",
+      "ranking": 358,
+      "year": 2004,
+      "votes": 2869
+    },
+    {
+      "name": "Persona 5",
+      "ranking": 359,
+      "year": 2016,
+      "votes": 2856
+    },
+    {
+      "name": "League of Legends",
+      "ranking": 360,
+      "year": 2009,
+      "votes": 2822
+    },
+    {
+      "name": "The Lord of the Rings: The Return of the King",
+      "ranking": 361,
+      "year": 2003,
+      "votes": 2811
+    },
+    {
+      "name": "Middle-Earth: Shadow of War",
+      "ranking": 362,
+      "year": 2017,
+      "votes": 2809
+    },
+    {
+      "name": "Mario Kart 8 Deluxe",
+      "ranking": 363,
+      "year": 2017,
+      "votes": 2809
+    },
+    {
+      "name": "Fable III",
+      "ranking": 364,
+      "year": 2010,
+      "votes": 2806
+    },
+    {
+      "name": "Fable II",
+      "ranking": 365,
+      "year": 2008,
+      "votes": 2803
+    },
+    {
+      "name": "Splinter Cell: Blacklist",
+      "ranking": 366,
+      "year": 2013,
+      "votes": 2793
+    },
+    {
+      "name": "The Stanley Parable",
+      "ranking": 367,
+      "year": 2013,
+      "votes": 2792
+    },
+    {
+      "name": "Sonic the Hedgehog 2",
+      "ranking": 368,
+      "year": 1992,
+      "votes": 2785
+    },
+    {
+      "name": "Mafia: Definitive Edition",
+      "ranking": 369,
+      "year": 2020,
+      "votes": 2784
+    },
+    {
+      "name": "Lego Star Wars: The Video Game",
+      "ranking": 370,
+      "year": 2005,
+      "votes": 2756
+    },
+    {
+      "name": "The Dark Pictures: Man of Medan",
+      "ranking": 371,
+      "year": 2019,
+      "votes": 2754
+    },
+    {
+      "name": "Mortal Kombat II",
+      "ranking": 372,
+      "year": 1993,
+      "votes": 2752
+    },
+    {
+      "name": "The Simpsons: Hit & Run",
+      "ranking": 373,
+      "year": 2003,
+      "votes": 2727
+    },
+    {
+      "name": "Battlefield V",
+      "ranking": 374,
+      "year": 2018,
+      "votes": 2723
+    },
+    {
+      "name": "The Curse of Monkey Island",
+      "ranking": 375,
+      "year": 1997,
+      "votes": 2723
+    },
+    {
+      "name": "New Super Mario Bros.",
+      "ranking": 376,
+      "year": 2006,
+      "votes": 2714
+    },
+    {
+      "name": "Lego Star Wars II: The Original Trilogy",
+      "ranking": 377,
+      "year": 2006,
+      "votes": 2709
+    },
+    {
+      "name": "Devil May Cry",
+      "ranking": 378,
+      "year": 2001,
+      "votes": 2708
+    },
+    {
+      "name": "FIFA 14",
+      "ranking": 379,
+      "year": 2013,
+      "votes": 2692
+    },
+    {
+      "name": "Battlefield: Hardline",
+      "ranking": 380,
+      "year": 2015,
+      "votes": 2678
+    },
+    {
+      "name": "Diablo II: Lord of Destruction",
+      "ranking": 381,
+      "year": 2001,
+      "votes": 2667
+    },
+    {
+      "name": "Marvel's Avengers",
+      "ranking": 382,
+      "year": 2020,
+      "votes": 2650
+    },
+    {
+      "name": "The Walking Dead: The Final Season",
+      "ranking": 383,
+      "year": 2018,
+      "votes": 2649
+    },
+    {
+      "name": "Age of Empires III",
+      "ranking": 384,
+      "year": 2005,
+      "votes": 2633
+    },
+    {
+      "name": "Call of Duty: Black Ops Cold War",
+      "ranking": 385,
+      "year": 2020,
+      "votes": 2628
+    },
+    {
+      "name": "Lego Batman 2: DC Super Heroes",
+      "ranking": 386,
+      "year": 2012,
+      "votes": 2620
+    },
+    {
+      "name": "Super Mario Galaxy 2",
+      "ranking": 387,
+      "year": 2010,
+      "votes": 2606
+    },
+    {
+      "name": "Scarface: The World Is Yours",
+      "ranking": 388,
+      "year": 2006,
+      "votes": 2603
+    },
+    {
+      "name": "Pokémon Red Version",
+      "ranking": 389,
+      "year": 1996,
+      "votes": 2600
+    },
+    {
+      "name": "Metal Gear Solid 3: Subsistence",
+      "ranking": 390,
+      "year": 2005,
+      "votes": 2587
+    },
+    {
+      "name": "Ratchet & Clank",
+      "ranking": 391,
+      "year": 2016,
+      "votes": 2586
+    },
+    {
+      "name": "Call of Duty: Black Ops 4",
+      "ranking": 392,
+      "year": 2018,
+      "votes": 2584
+    },
+    {
+      "name": "Medal of Honor",
+      "ranking": 393,
+      "year": 2010,
+      "votes": 2572
+    },
+    {
+      "name": "Crash Bandicoot: Warped",
+      "ranking": 394,
+      "year": 1998,
+      "votes": 2568
+    },
+    {
+      "name": "Plants vs. Zombies",
+      "ranking": 395,
+      "year": 2009,
+      "votes": 2562
+    },
+    {
+      "name": "Return to Castle Wolfenstein",
+      "ranking": 396,
+      "year": 2001,
+      "votes": 2554
+    },
+    {
+      "name": "It Takes Two",
+      "ranking": 397,
+      "year": 2021,
+      "votes": 2551
+    },
+    {
+      "name": "The Sims 3",
+      "ranking": 398,
+      "year": 2009,
+      "votes": 2551
+    },
+    {
+      "name": "God of War: Ghost of Sparta",
+      "ranking": 399,
+      "year": 2010,
+      "votes": 2512
+    },
+    {
+      "name": "Metal Gear Rising: Revengeance",
+      "ranking": 400,
+      "year": 2013,
+      "votes": 2497
+    },
+    {
+      "name": "Metro Exodus",
+      "ranking": 401,
+      "year": 2019,
+      "votes": 2485
+    },
+    {
+      "name": "Prince of Persia",
+      "ranking": 402,
+      "year": 2008,
+      "votes": 2471
+    },
+    {
+      "name": "Spider-Man",
+      "ranking": 403,
+      "year": 2002,
+      "votes": 2463
+    },
+    {
+      "name": "Just Cause 3",
+      "ranking": 404,
+      "year": 2015,
+      "votes": 2452
+    },
+    {
+      "name": "Need for Speed: Undercover",
+      "ranking": 405,
+      "year": 2008,
+      "votes": 2452
+    },
+    {
+      "name": "Crash Bandicoot 2: Cortex Strikes Back",
+      "ranking": 406,
+      "year": 1997,
+      "votes": 2447
+    },
+    {
+      "name": "Everything or Nothing",
+      "ranking": 407,
+      "year": 2003,
+      "votes": 2437
+    },
+    {
+      "name": "Quake",
+      "ranking": 408,
+      "year": 1996,
+      "votes": 2437
+    },
+    {
+      "name": "Shadow of the Colossus",
+      "ranking": 409,
+      "year": 2018,
+      "votes": 2434
+    },
+    {
+      "name": "Ice Age 2: The Meltdown",
+      "ranking": 410,
+      "year": 2006,
+      "votes": 2421
+    },
+    {
+      "name": "Lara Croft Tomb Raider: Legend",
+      "ranking": 411,
+      "year": 2006,
+      "votes": 2420
+    },
+    {
+      "name": "Monkey Island 2: LeChuck's Revenge",
+      "ranking": 412,
+      "year": 1991,
+      "votes": 2419
+    },
+    {
+      "name": "Gun",
+      "ranking": 413,
+      "year": 2005,
+      "votes": 2399
+    },
+    {
+      "name": "Manhunt",
+      "ranking": 414,
+      "year": 2003,
+      "votes": 2396
+    },
+    {
+      "name": "The Order: 1886",
+      "ranking": 415,
+      "year": 2015,
+      "votes": 2395
+    },
+    {
+      "name": "Command & Conquer: Red Alert",
+      "ranking": 416,
+      "year": 1996,
+      "votes": 2389
+    },
+    {
+      "name": "Outlast 2",
+      "ranking": 417,
+      "year": 2017,
+      "votes": 2386
+    },
+    {
+      "name": "Wolfenstein: The Old Blood",
+      "ranking": 418,
+      "year": 2015,
+      "votes": 2381
+    },
+    {
+      "name": "Five Nights at Freddy's",
+      "ranking": 419,
+      "year": 2014,
+      "votes": 2377
+    },
+    {
+      "name": "Call of Duty: Modern Warfare Remastered",
+      "ranking": 420,
+      "year": 2016,
+      "votes": 2376
+    },
+    {
+      "name": "Resident Evil 0",
+      "ranking": 421,
+      "year": 2002,
+      "votes": 2376
+    },
+    {
+      "name": "The Legend of Zelda: Skyward Sword",
+      "ranking": 422,
+      "year": 2011,
+      "votes": 2374
+    },
+    {
+      "name": "Reservoir Dogs",
+      "ranking": 423,
+      "year": 2006,
+      "votes": 2371
+    },
+    {
+      "name": "Super Mario 3D World",
+      "ranking": 424,
+      "year": 2013,
+      "votes": 2357
+    },
+    {
+      "name": "Darksiders",
+      "ranking": 425,
+      "year": 2010,
+      "votes": 2356
+    },
+    {
+      "name": "The Evil Within 2",
+      "ranking": 426,
+      "year": 2017,
+      "votes": 2338
+    },
+    {
+      "name": "Age of Empires",
+      "ranking": 427,
+      "year": 1997,
+      "votes": 2335
+    },
+    {
+      "name": "Dragon Age: Origins - Awakening",
+      "ranking": 428,
+      "year": 2010,
+      "votes": 2326
+    },
+    {
+      "name": "Super Mario Kart",
+      "ranking": 429,
+      "year": 1992,
+      "votes": 2326
+    },
+    {
+      "name": "Super Smash Bros.",
+      "ranking": 430,
+      "year": 1999,
+      "votes": 2324
+    },
+    {
+      "name": "Star Wars: Jedi Knight - Jedi Academy",
+      "ranking": 431,
+      "year": 2003,
+      "votes": 2311
+    },
+    {
+      "name": "Star Wars: Jedi Knight II - Jedi Outcast",
+      "ranking": 432,
+      "year": 2002,
+      "votes": 2310
+    },
+    {
+      "name": "Mario Kart 8",
+      "ranking": 433,
+      "year": 2014,
+      "votes": 2294
+    },
+    {
+      "name": "Hollow Knight",
+      "ranking": 434,
+      "year": 2017,
+      "votes": 2291
+    },
+    {
+      "name": "Far Cry 6",
+      "ranking": 435,
+      "year": 2021,
+      "votes": 2289
+    },
+    {
+      "name": "StarCraft: Brood War",
+      "ranking": 436,
+      "year": 1998,
+      "votes": 2289
+    },
+    {
+      "name": "The Sims",
+      "ranking": 437,
+      "year": 2000,
+      "votes": 2286
+    },
+    {
+      "name": "World of Warcraft: Wrath of the Lich King",
+      "ranking": 438,
+      "year": 2008,
+      "votes": 2279
+    },
+    {
+      "name": "Halo: The Master Chief Collection",
+      "ranking": 439,
+      "year": 2014,
+      "votes": 2250
+    },
+    {
+      "name": "Toy Story 2: Buzz Lightyear to the Rescue",
+      "ranking": 440,
+      "year": 1999,
+      "votes": 2245
+    },
+    {
+      "name": "Far Cry 3: Blood Dragon",
+      "ranking": 441,
+      "year": 2013,
+      "votes": 2245
+    },
+    {
+      "name": "Splinter Cell: Double Agent",
+      "ranking": 442,
+      "year": 2006,
+      "votes": 2242
+    },
+    {
+      "name": "Medal of Honor: Allied Assault",
+      "ranking": 443,
+      "year": 2002,
+      "votes": 2232
+    },
+    {
+      "name": "Harry Potter and the Order of the Phoenix",
+      "ranking": 444,
+      "year": 2007,
+      "votes": 2230
+    },
+    {
+      "name": "Pac-Man",
+      "ranking": 445,
+      "year": 1980,
+      "votes": 2226
+    },
+    {
+      "name": "Metal Gear Solid: Peace Walker",
+      "ranking": 446,
+      "year": 2010,
+      "votes": 2225
+    },
+    {
+      "name": "Wolfenstein 3D",
+      "ranking": 447,
+      "year": 1992,
+      "votes": 2218
+    },
+    {
+      "name": "Lego Indiana Jones: The Original Adventures",
+      "ranking": 448,
+      "year": 2008,
+      "votes": 2215
+    },
+    {
+      "name": "Life Is Strange 2",
+      "ranking": 449,
+      "year": 2018,
+      "votes": 2213
+    },
+    {
+      "name": "World of Warcraft: The Burning Crusade",
+      "ranking": 450,
+      "year": 2007,
+      "votes": 2193
+    },
+    {
+      "name": "The Outer Worlds",
+      "ranking": 451,
+      "year": 2019,
+      "votes": 2190
+    },
+    {
+      "name": "Stray",
+      "ranking": 452,
+      "year": 2022,
+      "votes": 2187
+    },
+    {
+      "name": "Saints Row",
+      "ranking": 453,
+      "year": 2006,
+      "votes": 2173
+    },
+    {
+      "name": "Tomb Raider: Underworld",
+      "ranking": 454,
+      "year": 2008,
+      "votes": 2170
+    },
+    {
+      "name": "James Bond 007: Blood Stone",
+      "ranking": 455,
+      "year": 2010,
+      "votes": 2166
+    },
+    {
+      "name": "Halo Wars",
+      "ranking": 456,
+      "year": 2009,
+      "votes": 2160
+    },
+    {
+      "name": "Iron Man",
+      "ranking": 457,
+      "year": 2008,
+      "votes": 2159
+    },
+    {
+      "name": "Devil May Cry 5",
+      "ranking": 458,
+      "year": 2019,
+      "votes": 2158
+    },
+    {
+      "name": "Kingdom Hearts III",
+      "ranking": 459,
+      "year": 2019,
+      "votes": 2148
+    },
+    {
+      "name": "Metal Gear Solid 2: Substance",
+      "ranking": 460,
+      "year": 2002,
+      "votes": 2145
+    },
+    {
+      "name": "Marvel: Ultimate Alliance",
+      "ranking": 461,
+      "year": 2006,
+      "votes": 2144
+    },
+    {
+      "name": "Hitman: Codename 47",
+      "ranking": 462,
+      "year": 2000,
+      "votes": 2143
+    },
+    {
+      "name": "Super Metroid",
+      "ranking": 463,
+      "year": 1994,
+      "votes": 2140
+    },
+    {
+      "name": "Age of Mythology",
+      "ranking": 464,
+      "year": 2002,
+      "votes": 2126
+    },
+    {
+      "name": "Spyro the Dragon",
+      "ranking": 465,
+      "year": 1998,
+      "votes": 2124
+    },
+    {
+      "name": "Baldur's Gate II: Shadows of Amn",
+      "ranking": 466,
+      "year": 2000,
+      "votes": 2123
+    },
+    {
+      "name": "BioShock Infinite: Burial at Sea",
+      "ranking": 467,
+      "year": 2013,
+      "votes": 2121
+    },
+    {
+      "name": "Mario Kart DS",
+      "ranking": 468,
+      "year": 2005,
+      "votes": 2102
+    },
+    {
+      "name": "Halo Infinite",
+      "ranking": 469,
+      "year": 2021,
+      "votes": 2099
+    },
+    {
+      "name": "Ori and the Blind Forest",
+      "ranking": 470,
+      "year": 2015,
+      "votes": 2099
+    },
+    {
+      "name": "Need for Speed: Hot Pursuit",
+      "ranking": 471,
+      "year": 2010,
+      "votes": 2099
+    },
+    {
+      "name": "Command & Conquer: Red Alert 3",
+      "ranking": 472,
+      "year": 2008,
+      "votes": 2098
+    },
+    {
+      "name": "Burnout Paradise",
+      "ranking": 473,
+      "year": 2008,
+      "votes": 2096
+    },
+    {
+      "name": "FIFA 13",
+      "ranking": 474,
+      "year": 2012,
+      "votes": 2087
+    },
+    {
+      "name": "Mario Kart 7",
+      "ranking": 475,
+      "year": 2011,
+      "votes": 2086
+    },
+    {
+      "name": "Command & Conquer 3: Tiberium Wars",
+      "ranking": 476,
+      "year": 2007,
+      "votes": 2084
+    },
+    {
+      "name": "Bulletstorm",
+      "ranking": 477,
+      "year": 2011,
+      "votes": 2079
+    },
+    {
+      "name": "Splinter Cell: Pandora Tomorrow",
+      "ranking": 478,
+      "year": 2004,
+      "votes": 2079
+    },
+    {
+      "name": "Deus Ex: Mankind Divided",
+      "ranking": 479,
+      "year": 2016,
+      "votes": 2071
+    },
+    {
+      "name": "Lego Pirates of the Caribbean: The Video Game",
+      "ranking": 480,
+      "year": 2011,
+      "votes": 2071
+    },
+    {
+      "name": "Mortal Kombat 3",
+      "ranking": 481,
+      "year": 1995,
+      "votes": 2063
+    },
+    {
+      "name": "Planescape: Torment",
+      "ranking": 482,
+      "year": 1999,
+      "votes": 2060
+    },
+    {
+      "name": "The Division",
+      "ranking": 483,
+      "year": 2016,
+      "votes": 2053
+    },
+    {
+      "name": "Star Wars: Republic Commando",
+      "ranking": 484,
+      "year": 2005,
+      "votes": 2048
+    },
+    {
+      "name": "Super Mario World 2: Yoshi's Island",
+      "ranking": 485,
+      "year": 1995,
+      "votes": 2048
+    },
+    {
+      "name": "Quantum Break",
+      "ranking": 486,
+      "year": 2016,
+      "votes": 2038
+    },
+    {
+      "name": "PlayerUnknown's Battlegrounds",
+      "ranking": 487,
+      "year": 2017,
+      "votes": 2038
+    },
+    {
+      "name": "Tomb Raider II",
+      "ranking": 488,
+      "year": 1997,
+      "votes": 2037
+    },
+    {
+      "name": "Amnesia: The Dark Descent",
+      "ranking": 489,
+      "year": 2010,
+      "votes": 2036
+    },
+    {
+      "name": "Crash Bandicoot N. Sane Trilogy",
+      "ranking": 490,
+      "year": 2017,
+      "votes": 2032
+    },
+    {
+      "name": "King Kong: The Official Game of the Movie",
+      "ranking": 491,
+      "year": 2005,
+      "votes": 2024
+    },
+    {
+      "name": "Metroid Prime",
+      "ranking": 492,
+      "year": 2002,
+      "votes": 2022
+    },
+    {
+      "name": "Batman: The Enemy Within",
+      "ranking": 493,
+      "year": 2017,
+      "votes": 2020
+    },
+    {
+      "name": "Brütal Legend",
+      "ranking": 494,
+      "year": 2009,
+      "votes": 2016
+    },
+    {
+      "name": "Hotline Miami",
+      "ranking": 495,
+      "year": 2012,
+      "votes": 2016
+    },
+    {
+      "name": "Dead Rising 2",
+      "ranking": 496,
+      "year": 2010,
+      "votes": 2016
+    },
+    {
+      "name": "Need for Speed: Most Wanted",
+      "ranking": 497,
+      "year": 2012,
+      "votes": 2014
+    },
+    {
+      "name": "Battlefield: Bad Company",
+      "ranking": 498,
+      "year": 2008,
+      "votes": 2011
+    },
+    {
+      "name": "South Park: The Fractured but Whole",
+      "ranking": 499,
+      "year": 2017,
+      "votes": 2005
+    },
+    {
+      "name": "The Lord of the Rings: The Battle for Middle-Earth",
+      "ranking": 500,
+      "year": 2004,
+      "votes": 2000
+    },
+    {
+      "name": "Outlast: Whistleblower",
+      "ranking": 501,
+      "year": 2014,
+      "votes": 1999
+    },
+    {
+      "name": "Mario Kart: Double Dash!!",
+      "ranking": 502,
+      "year": 2003,
+      "votes": 1995
+    },
+    {
+      "name": "Crash Team Racing",
+      "ranking": 503,
+      "year": 1999,
+      "votes": 1995
+    },
+    {
+      "name": "Donkey Kong",
+      "ranking": 504,
+      "year": 1981,
+      "votes": 1982
+    },
+    {
+      "name": "Killzone 2",
+      "ranking": 505,
+      "year": 2009,
+      "votes": 1982
+    },
+    {
+      "name": "The Amazing Spider-Man",
+      "ranking": 506,
+      "year": 2012,
+      "votes": 1981
+    },
+    {
+      "name": "Guitar Hero III: Legends of Rock",
+      "ranking": 507,
+      "year": 2007,
+      "votes": 1980
+    },
+    {
+      "name": "Borderlands 3",
+      "ranking": 508,
+      "year": 2019,
+      "votes": 1979
+    },
+    {
+      "name": "Super Mario 3D Land",
+      "ranking": 509,
+      "year": 2011,
+      "votes": 1974
+    },
+    {
+      "name": "Street Fighter: The Movie",
+      "ranking": 510,
+      "year": 1995,
+      "votes": 1971
+    },
+    {
+      "name": "Half-Life: Opposing Force",
+      "ranking": 511,
+      "year": 1999,
+      "votes": 1966
+    },
+    {
+      "name": "Jak and Daxter: The Precursor Legacy",
+      "ranking": 512,
+      "year": 2001,
+      "votes": 1965
+    },
+    {
+      "name": "Brothers: A Tale of Two Sons",
+      "ranking": 513,
+      "year": 2013,
+      "votes": 1963
+    },
+    {
+      "name": "Borderlands: The Pre-Sequel!",
+      "ranking": 514,
+      "year": 2014,
+      "votes": 1961
+    },
+    {
+      "name": "Mass Effect: Legendary Edition",
+      "ranking": 515,
+      "year": 2021,
+      "votes": 1957
+    },
+    {
+      "name": "Hitman 2",
+      "ranking": 516,
+      "year": 2018,
+      "votes": 1948
+    },
+    {
+      "name": "Batman: Return to Arkham",
+      "ranking": 517,
+      "year": 2016,
+      "votes": 1944
+    },
+    {
+      "name": "The Warriors",
+      "ranking": 518,
+      "year": 2005,
+      "votes": 1942
+    },
+    {
+      "name": "Blade Runner",
+      "ranking": 519,
+      "year": 1997,
+      "votes": 1935
+    },
+    {
+      "name": "Lego Harry Potter: Years 1-4",
+      "ranking": 520,
+      "year": 2010,
+      "votes": 1935
+    },
+    {
+      "name": "Far Cry New Dawn",
+      "ranking": 521,
+      "year": 2019,
+      "votes": 1931
+    },
+    {
+      "name": "Gears of War 4",
+      "ranking": 522,
+      "year": 2016,
+      "votes": 1930
+    },
+    {
+      "name": "Monty Python & the Quest for the Holy Grail",
+      "ranking": 523,
+      "year": 1996,
+      "votes": 1930
+    },
+    {
+      "name": "Stranglehold",
+      "ranking": 524,
+      "year": 2007,
+      "votes": 1922
+    },
+    {
+      "name": "P.T.",
+      "ranking": 525,
+      "year": 2014,
+      "votes": 1916
+    },
+    {
+      "name": "Lego Star Wars: The Skywalker Saga",
+      "ranking": 526,
+      "year": 2022,
+      "votes": 1911
+    },
+    {
+      "name": "The Walking Dead: Michonne",
+      "ranking": 527,
+      "year": 2016,
+      "votes": 1905
+    },
+    {
+      "name": "Prey",
+      "ranking": 528,
+      "year": 2017,
+      "votes": 1903
+    },
+    {
+      "name": "Titanfall",
+      "ranking": 529,
+      "year": 2014,
+      "votes": 1903
+    },
+    {
+      "name": "Day of the Tentacle",
+      "ranking": 530,
+      "year": 1993,
+      "votes": 1902
+    },
+    {
+      "name": "Bayonetta",
+      "ranking": 531,
+      "year": 2009,
+      "votes": 1901
+    },
+    {
+      "name": "Command & Conquer",
+      "ranking": 532,
+      "year": 1995,
+      "votes": 1900
+    },
+    {
+      "name": "Soma",
+      "ranking": 533,
+      "year": 2015,
+      "votes": 1899
+    },
+    {
+      "name": "Civilization V",
+      "ranking": 534,
+      "year": 2010,
+      "votes": 1898
+    },
+    {
+      "name": "Quake III: Arena",
+      "ranking": 535,
+      "year": 1999,
+      "votes": 1897
+    },
+    {
+      "name": "Quake II",
+      "ranking": 536,
+      "year": 1997,
+      "votes": 1896
+    },
+    {
+      "name": "Tomb Raider: Anniversary",
+      "ranking": 537,
+      "year": 2007,
+      "votes": 1895
+    },
+    {
+      "name": "Lego Star Wars III: The Clone Wars",
+      "ranking": 538,
+      "year": 2011,
+      "votes": 1894
+    },
+    {
+      "name": "Ghost Recon: Wildlands",
+      "ranking": 539,
+      "year": 2017,
+      "votes": 1890
+    },
+    {
+      "name": "Horizon Zero Dawn: The Frozen Wilds",
+      "ranking": 540,
+      "year": 2017,
+      "votes": 1890
+    },
+    {
+      "name": "Gone Home",
+      "ranking": 541,
+      "year": 2013,
+      "votes": 1885
+    },
+    {
+      "name": "Coraline",
+      "ranking": 542,
+      "year": 2009,
+      "votes": 1882
+    },
+    {
+      "name": "The Punisher",
+      "ranking": 543,
+      "year": 2004,
+      "votes": 1870
+    },
+    {
+      "name": "Terminator 2: Judgment Day",
+      "ranking": 544,
+      "year": 1991,
+      "votes": 1865
+    },
+    {
+      "name": "The Dark Pictures: Little Hope",
+      "ranking": 545,
+      "year": 2020,
+      "votes": 1860
+    },
+    {
+      "name": "LittleBigPlanet",
+      "ranking": 546,
+      "year": 2008,
+      "votes": 1860
+    },
+    {
+      "name": "The Lion King",
+      "ranking": 547,
+      "year": 1994,
+      "votes": 1853
+    },
+    {
+      "name": "Dota 2",
+      "ranking": 548,
+      "year": 2013,
+      "votes": 1852
+    },
+    {
+      "name": "Tekken 5",
+      "ranking": 549,
+      "year": 2004,
+      "votes": 1852
+    },
+    {
+      "name": "Medal of Honor",
+      "ranking": 550,
+      "year": 1999,
+      "votes": 1850
+    },
+    {
+      "name": "Baldur's Gate",
+      "ranking": 551,
+      "year": 1998,
+      "votes": 1849
+    },
+    {
+      "name": "Darksiders II",
+      "ranking": 552,
+      "year": 2012,
+      "votes": 1849
+    },
+    {
+      "name": "Sonic 3",
+      "ranking": 553,
+      "year": 1994,
+      "votes": 1842
+    },
+    {
+      "name": "Fallout 76",
+      "ranking": 554,
+      "year": 2018,
+      "votes": 1839
+    },
+    {
+      "name": "Ratchet & Clank",
+      "ranking": 555,
+      "year": 2002,
+      "votes": 1835
+    },
+    {
+      "name": "Vampire: The Masquerade - Bloodlines",
+      "ranking": 556,
+      "year": 2004,
+      "votes": 1834
+    },
+    {
+      "name": "Star Wars: Episode III - Revenge of the Sith",
+      "ranking": 557,
+      "year": 2005,
+      "votes": 1830
+    },
+    {
+      "name": "Half-Life: Blue Shift",
+      "ranking": 558,
+      "year": 2001,
+      "votes": 1829
+    },
+    {
+      "name": "The Darkness",
+      "ranking": 559,
+      "year": 2007,
+      "votes": 1824
+    },
+    {
+      "name": "Rayman Legends",
+      "ranking": 560,
+      "year": 2013,
+      "votes": 1811
+    },
+    {
+      "name": "FIFA 17",
+      "ranking": 561,
+      "year": 2016,
+      "votes": 1808
+    },
+    {
+      "name": "Hades",
+      "ranking": 562,
+      "year": 2018,
+      "votes": 1807
+    },
+    {
+      "name": "FIFA Soccer 12",
+      "ranking": 563,
+      "year": 2011,
+      "votes": 1806
+    },
+    {
+      "name": "Banjo-Kazooie",
+      "ranking": 564,
+      "year": 1998,
+      "votes": 1803
+    },
+    {
+      "name": "Angry Birds",
+      "ranking": 565,
+      "year": 2009,
+      "votes": 1798
+    },
+    {
+      "name": "Super Smash Bros. for Wii U",
+      "ranking": 566,
+      "year": 2014,
+      "votes": 1789
+    },
+    {
+      "name": "Warcraft II: Tides of Darkness",
+      "ranking": 567,
+      "year": 1995,
+      "votes": 1788
+    },
+    {
+      "name": "Silent Hill: Homecoming",
+      "ranking": 568,
+      "year": 2008,
+      "votes": 1781
+    },
+    {
+      "name": "Spider-Man",
+      "ranking": 569,
+      "year": 2000,
+      "votes": 1777
+    },
+    {
+      "name": "The Lord of the Rings: The Battle for Middle-Earth II",
+      "ranking": 570,
+      "year": 2006,
+      "votes": 1776
+    },
+    {
+      "name": "Game of Thrones",
+      "ranking": 571,
+      "year": 2012,
+      "votes": 1772
+    },
+    {
+      "name": "Street Fighter II: The World Warrior",
+      "ranking": 572,
+      "year": 1991,
+      "votes": 1768
+    },
+    {
+      "name": "F.E.A.R. 2: Project Origin",
+      "ranking": 573,
+      "year": 2009,
+      "votes": 1768
+    },
+    {
+      "name": "Prince of Persia: The Forgotten Sands",
+      "ranking": 574,
+      "year": 2010,
+      "votes": 1757
+    },
+    {
+      "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+      "ranking": 575,
+      "year": 1995,
+      "votes": 1756
+    },
+    {
+      "name": "Prototype 2",
+      "ranking": 576,
+      "year": 2012,
+      "votes": 1750
+    },
+    {
+      "name": "Resistance: Fall of Man",
+      "ranking": 577,
+      "year": 2006,
+      "votes": 1745
+    },
+    {
+      "name": "Lego Batman 3: Beyond Gotham",
+      "ranking": 578,
+      "year": 2014,
+      "votes": 1743
+    },
+    {
+      "name": "Fall Guys: Ultimate Knockout",
+      "ranking": 579,
+      "year": 2020,
+      "votes": 1741
+    },
+    {
+      "name": "Dante's Inferno",
+      "ranking": 580,
+      "year": 2010,
+      "votes": 1738
+    },
+    {
+      "name": "Duck Hunt",
+      "ranking": 581,
+      "year": 1984,
+      "votes": 1738
+    },
+    {
+      "name": "Psychonauts",
+      "ranking": 582,
+      "year": 2005,
+      "votes": 1734
+    },
+    {
+      "name": "Ryse: Son of Rome",
+      "ranking": 583,
+      "year": 2013,
+      "votes": 1733
+    },
+    {
+      "name": "Duke Nukem Forever",
+      "ranking": 584,
+      "year": 2011,
+      "votes": 1723
+    },
+    {
+      "name": "Ico",
+      "ranking": 585,
+      "year": 2001,
+      "votes": 1714
+    },
+    {
+      "name": "Diablo III: Reaper of Souls",
+      "ranking": 586,
+      "year": 2014,
+      "votes": 1711
+    },
+    {
+      "name": "Unreal Tournament",
+      "ranking": 587,
+      "year": 1999,
+      "votes": 1708
+    },
+    {
+      "name": "Lylat Wars",
+      "ranking": 588,
+      "year": 1997,
+      "votes": 1702
+    },
+    {
+      "name": "Resident Evil HD Remaster",
+      "ranking": 589,
+      "year": 2015,
+      "votes": 1700
+    },
+    {
+      "name": "FIFA 18",
+      "ranking": 590,
+      "year": 2017,
+      "votes": 1698
+    },
+    {
+      "name": "Tekken 2",
+      "ranking": 591,
+      "year": 1995,
+      "votes": 1698
+    },
+    {
+      "name": "Zelda II: The Adventure of Link",
+      "ranking": 592,
+      "year": 1987,
+      "votes": 1698
+    },
+    {
+      "name": "Medal of Honor: Frontline",
+      "ranking": 593,
+      "year": 2002,
+      "votes": 1690
+    },
+    {
+      "name": "Rome: Total War",
+      "ranking": 594,
+      "year": 2004,
+      "votes": 1684
+    },
+    {
+      "name": "New Super Mario Bros. 2",
+      "ranking": 595,
+      "year": 2012,
+      "votes": 1683
+    },
+    {
+      "name": "Killzone 3",
+      "ranking": 596,
+      "year": 2011,
+      "votes": 1680
+    },
+    {
+      "name": "The Last of Us: Part I",
+      "ranking": 597,
+      "year": 2022,
+      "votes": 1672
+    },
+    {
+      "name": "Kingdom Hearts: Birth by Sleep",
+      "ranking": 598,
+      "year": 2010,
+      "votes": 1670
+    },
+    {
+      "name": "Command & Conquer: Tiberian Sun",
+      "ranking": 599,
+      "year": 1999,
+      "votes": 1668
+    },
+    {
+      "name": "FIFA 19",
+      "ranking": 600,
+      "year": 2018,
+      "votes": 1667
+    },
+    {
+      "name": "Terraria",
+      "ranking": 601,
+      "year": 2011,
+      "votes": 1666
+    },
+    {
+      "name": "Rage",
+      "ranking": 602,
+      "year": 2011,
+      "votes": 1658
+    },
+    {
+      "name": "Bloodborne: The Old Hunters",
+      "ranking": 603,
+      "year": 2015,
+      "votes": 1657
+    },
+    {
+      "name": "Castlevania: Symphony of the Night",
+      "ranking": 604,
+      "year": 1997,
+      "votes": 1656
+    },
+    {
+      "name": "The Chronicles of Riddick: Assault on Dark Athena",
+      "ranking": 605,
+      "year": 2009,
+      "votes": 1652
+    },
+    {
+      "name": "The Legend of Zelda: A Link Between Worlds",
+      "ranking": 606,
+      "year": 2013,
+      "votes": 1652
+    },
+    {
+      "name": "Resident Evil Revelations",
+      "ranking": 607,
+      "year": 2012,
+      "votes": 1648
+    },
+    {
+      "name": "Need for Speed: The Run",
+      "ranking": 608,
+      "year": 2011,
+      "votes": 1645
+    },
+    {
+      "name": "Metal Gear Solid: The Twin Snakes",
+      "ranking": 609,
+      "year": 2004,
+      "votes": 1643
+    },
+    {
+      "name": "Mortal Kombat vs. DC Universe",
+      "ranking": 610,
+      "year": 2008,
+      "votes": 1639
+    },
+    {
+      "name": "Pokémon Gold Version",
+      "ranking": 611,
+      "year": 1999,
+      "votes": 1635
+    },
+    {
+      "name": "Lego Star Wars: The Force Awakens",
+      "ranking": 612,
+      "year": 2016,
+      "votes": 1626
+    },
+    {
+      "name": "Indiana Jones and the Fate of Atlantis",
+      "ranking": 613,
+      "year": 1992,
+      "votes": 1621
+    },
+    {
+      "name": "Doki Doki Literature Club!",
+      "ranking": 614,
+      "year": 2017,
+      "votes": 1619
+    },
+    {
+      "name": "Full Throttle",
+      "ranking": 615,
+      "year": 1995,
+      "votes": 1616
+    },
+    {
+      "name": "The Sims 4",
+      "ranking": 616,
+      "year": 2014,
+      "votes": 1607
+    },
+    {
+      "name": "Halo: Combat Evolved Anniversary",
+      "ranking": 617,
+      "year": 2011,
+      "votes": 1607
+    },
+    {
+      "name": "Yakuza 0",
+      "ranking": 618,
+      "year": 2015,
+      "votes": 1606
+    },
+    {
+      "name": "Enslaved: Odyssey to the West",
+      "ranking": 619,
+      "year": 2010,
+      "votes": 1606
+    },
+    {
+      "name": "Payday 2",
+      "ranking": 620,
+      "year": 2013,
+      "votes": 1599
+    },
+    {
+      "name": "Wolfenstein",
+      "ranking": 621,
+      "year": 2009,
+      "votes": 1596
+    },
+    {
+      "name": "StarCraft II: Heart of the Swarm",
+      "ranking": 622,
+      "year": 2013,
+      "votes": 1579
+    },
+    {
+      "name": "The Lord of the Rings: The Battle for Middle-earth II - The Rise of the Witch-king",
+      "ranking": 623,
+      "year": 2006,
+      "votes": 1576
+    },
+    {
+      "name": "Devil May Cry 2",
+      "ranking": 624,
+      "year": 2003,
+      "votes": 1570
+    },
+    {
+      "name": "Sonic & Knuckles",
+      "ranking": 625,
+      "year": 1994,
+      "votes": 1569
+    },
+    {
+      "name": "Jak II",
+      "ranking": 626,
+      "year": 2003,
+      "votes": 1567
+    },
+    {
+      "name": "Perfect Dark",
+      "ranking": 627,
+      "year": 2000,
+      "votes": 1565
+    },
+    {
+      "name": "Battlefield 2",
+      "ranking": 628,
+      "year": 2005,
+      "votes": 1561
+    },
+    {
+      "name": "Friday the 13th: The Game",
+      "ranking": 629,
+      "year": 2017,
+      "votes": 1553
+    },
+    {
+      "name": "Mortal Kombat: Armageddon",
+      "ranking": 630,
+      "year": 2006,
+      "votes": 1552
+    },
+    {
+      "name": "FIFA 20",
+      "ranking": 631,
+      "year": 2019,
+      "votes": 1547
+    },
+    {
+      "name": "Crash Bandicoot: The Wrath of Cortex",
+      "ranking": 632,
+      "year": 2001,
+      "votes": 1544
+    },
+    {
+      "name": "Contra",
+      "ranking": 633,
+      "year": 1987,
+      "votes": 1544
+    },
+    {
+      "name": "Spider-Man: Shattered Dimensions",
+      "ranking": 634,
+      "year": 2010,
+      "votes": 1543
+    },
+    {
+      "name": "Guitar Hero II",
+      "ranking": 635,
+      "year": 2006,
+      "votes": 1543
+    },
+    {
+      "name": "Medal of Honor: Warfighter",
+      "ranking": 636,
+      "year": 2012,
+      "votes": 1542
+    },
+    {
+      "name": "Forza Horizon 4",
+      "ranking": 637,
+      "year": 2018,
+      "votes": 1540
+    },
+    {
+      "name": "Pokémon: Yellow Version",
+      "ranking": 638,
+      "year": 1998,
+      "votes": 1538
+    },
+    {
+      "name": "FIFA 16",
+      "ranking": 639,
+      "year": 2015,
+      "votes": 1534
+    },
+    {
+      "name": "New Super Mario Bros. U",
+      "ranking": 640,
+      "year": 2012,
+      "votes": 1534
+    },
+    {
+      "name": "Jak 3",
+      "ranking": 641,
+      "year": 2004,
+      "votes": 1525
+    },
+    {
+      "name": "Final Fantasy",
+      "ranking": 642,
+      "year": 1987,
+      "votes": 1525
+    },
+    {
+      "name": "The Matrix: Path of Neo",
+      "ranking": 643,
+      "year": 2005,
+      "votes": 1523
+    },
+    {
+      "name": "Cars",
+      "ranking": 644,
+      "year": 2006,
+      "votes": 1522
+    },
+    {
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "ranking": 645,
+      "year": 2004,
+      "votes": 1522
+    },
+    {
+      "name": "Tomb Raider III: Adventures of Lara Croft",
+      "ranking": 646,
+      "year": 1998,
+      "votes": 1522
+    },
+    {
+      "name": "Sonic Adventure 2",
+      "ranking": 647,
+      "year": 2001,
+      "votes": 1519
+    },
+    {
+      "name": "Rainbow Six: Vegas 2",
+      "ranking": 648,
+      "year": 2008,
+      "votes": 1519
+    },
+    {
+      "name": "Gears of War: Judgment",
+      "ranking": 649,
+      "year": 2013,
+      "votes": 1515
+    },
+    {
+      "name": "Tomorrow Never Dies",
+      "ranking": 650,
+      "year": 1999,
+      "votes": 1515
+    },
+    {
+      "name": "Garry's Mod",
+      "ranking": 651,
+      "year": 2004,
+      "votes": 1514
+    },
+    {
+      "name": "XCOM: Enemy Unknown",
+      "ranking": 652,
+      "year": 2012,
+      "votes": 1513
+    },
+    {
+      "name": "Life Is Strange: True Colors",
+      "ranking": 653,
+      "year": 2021,
+      "votes": 1506
+    },
+    {
+      "name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+      "ranking": 654,
+      "year": 2007,
+      "votes": 1504
+    },
+    {
+      "name": "Dino Crisis",
+      "ranking": 655,
+      "year": 1999,
+      "votes": 1503
+    },
+    {
+      "name": "Ultimate Mortal Kombat 3",
+      "ranking": 656,
+      "year": 1995,
+      "votes": 1503
+    },
+    {
+      "name": "Crysis Warhead",
+      "ranking": 657,
+      "year": 2008,
+      "votes": 1502
+    },
+    {
+      "name": "Castlevania: Lords of Shadow",
+      "ranking": 658,
+      "year": 2010,
+      "votes": 1501
+    },
+    {
+      "name": "Wii Sports Resort",
+      "ranking": 659,
+      "year": 2009,
+      "votes": 1501
+    },
+    {
+      "name": "Civilization IV",
+      "ranking": 660,
+      "year": 2005,
+      "votes": 1500
+    },
+    {
+      "name": "Demon's Souls",
+      "ranking": 661,
+      "year": 2009,
+      "votes": 1496
+    },
+    {
+      "name": "Valiant Hearts: The Great War",
+      "ranking": 662,
+      "year": 2014,
+      "votes": 1494
+    },
+    {
+      "name": "Persona 5 Royal",
+      "ranking": 663,
+      "year": 2019,
+      "votes": 1491
+    },
+    {
+      "name": "Alice",
+      "ranking": 664,
+      "year": 2000,
+      "votes": 1491
+    },
+    {
+      "name": "Final Fantasy IV",
+      "ranking": 665,
+      "year": 1991,
+      "votes": 1491
+    },
+    {
+      "name": "Command & Conquer: Yuri's Revenge",
+      "ranking": 666,
+      "year": 2001,
+      "votes": 1486
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 2",
+      "ranking": 667,
+      "year": 2000,
+      "votes": 1484
+    },
+    {
+      "name": "Lego Harry Potter: Years 5-7",
+      "ranking": 668,
+      "year": 2011,
+      "votes": 1481
+    },
+    {
+      "name": "Fortnite: Chapter 2",
+      "ranking": 669,
+      "year": 2019,
+      "votes": 1479
+    },
+    {
+      "name": "Tekken 6",
+      "ranking": 670,
+      "year": 2007,
+      "votes": 1477
+    },
+    {
+      "name": "Ghost Recon: Future Soldier",
+      "ranking": 671,
+      "year": 2012,
+      "votes": 1474
+    },
+    {
+      "name": "Mortal Kombat 4",
+      "ranking": 672,
+      "year": 1997,
+      "votes": 1472
+    },
+    {
+      "name": "Nightfire",
+      "ranking": 673,
+      "year": 2002,
+      "votes": 1468
+    },
+    {
+      "name": "Gears 5",
+      "ranking": 674,
+      "year": 2019,
+      "votes": 1465
+    },
+    {
+      "name": "Five Nights at Freddy's 2",
+      "ranking": 675,
+      "year": 2014,
+      "votes": 1465
+    },
+    {
+      "name": "Super Mario RPG: Legend of the Seven Stars",
+      "ranking": 676,
+      "year": 1996,
+      "votes": 1464
+    },
+    {
+      "name": "Minecraft: Story Mode - A Telltale Games Series",
+      "ranking": 677,
+      "year": 2015,
+      "votes": 1463
+    },
+    {
+      "name": "Resident Evil Revelations 2",
+      "ranking": 678,
+      "year": 2015,
+      "votes": 1461
+    },
+    {
+      "name": "The Last Guardian",
+      "ranking": 679,
+      "year": 2016,
+      "votes": 1460
+    },
+    {
+      "name": "Persona 4 Golden",
+      "ranking": 680,
+      "year": 2012,
+      "votes": 1456
+    },
+    {
+      "name": "Beyond Good & Evil",
+      "ranking": 681,
+      "year": 2003,
+      "votes": 1453
+    },
+    {
+      "name": "True Crime: Streets of LA",
+      "ranking": 682,
+      "year": 2003,
+      "votes": 1449
+    },
+    {
+      "name": "Crouching Tiger, Hidden Dragon",
+      "ranking": 683,
+      "year": 2003,
+      "votes": 1449
+    },
+    {
+      "name": "Kane & Lynch: Dead Men",
+      "ranking": 684,
+      "year": 2007,
+      "votes": 1449
+    },
+    {
+      "name": "Tekken",
+      "ranking": 685,
+      "year": 1994,
+      "votes": 1449
+    },
+    {
+      "name": "The Darkness II",
+      "ranking": 686,
+      "year": 2012,
+      "votes": 1443
+    },
+    {
+      "name": "The Elder Scrolls Online",
+      "ranking": 687,
+      "year": 2014,
+      "votes": 1442
+    },
+    {
+      "name": "Night at the Museum: Battle of the Smithsonian",
+      "ranking": 688,
+      "year": 2009,
+      "votes": 1438
+    },
+    {
+      "name": "Papers, Please",
+      "ranking": 689,
+      "year": 2013,
+      "votes": 1438
+    },
+    {
+      "name": "Animal Crossing: New Horizons",
+      "ranking": 690,
+      "year": 2020,
+      "votes": 1437
+    },
+    {
+      "name": "Medal of Honor: Airborne",
+      "ranking": 691,
+      "year": 2007,
+      "votes": 1431
+    },
+    {
+      "name": "Aliens vs. Predator 3",
+      "ranking": 692,
+      "year": 2010,
+      "votes": 1428
+    },
+    {
+      "name": "Condemned: Criminal Origins",
+      "ranking": 693,
+      "year": 2005,
+      "votes": 1425
+    },
+    {
+      "name": "Pokémon FireRed Version",
+      "ranking": 694,
+      "year": 2004,
+      "votes": 1425
+    },
+    {
+      "name": "Need for Speed: Rivals",
+      "ranking": 695,
+      "year": 2013,
+      "votes": 1424
+    },
+    {
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "ranking": 696,
+      "year": 2001,
+      "votes": 1423
+    },
+    {
+      "name": "No Man's Sky",
+      "ranking": 697,
+      "year": 2016,
+      "votes": 1423
+    },
+    {
+      "name": "Ratchet & Clank 3",
+      "ranking": 698,
+      "year": 2004,
+      "votes": 1421
+    },
+    {
+      "name": "Luigi's Mansion",
+      "ranking": 699,
+      "year": 2001,
+      "votes": 1419
+    },
+    {
+      "name": "The Legend of Zelda: Link's Awakening",
+      "ranking": 700,
+      "year": 1993,
+      "votes": 1418
+    },
+    {
+      "name": "Need for Speed: Hot Pursuit 2",
+      "ranking": 701,
+      "year": 2002,
+      "votes": 1418
+    },
+    {
+      "name": "Metroid",
+      "ranking": 702,
+      "year": 1986,
+      "votes": 1416
+    },
+    {
+      "name": "Lego Jurassic World",
+      "ranking": 703,
+      "year": 2015,
+      "votes": 1412
+    },
+    {
+      "name": "Super Mario 64 DS",
+      "ranking": 704,
+      "year": 2004,
+      "votes": 1407
+    },
+    {
+      "name": "Goat Simulator",
+      "ranking": 705,
+      "year": 2014,
+      "votes": 1406
+    },
+    {
+      "name": "Sonic Adventure",
+      "ranking": 706,
+      "year": 1998,
+      "votes": 1406
+    },
+    {
+      "name": "Super Mario Bros.: The Lost Levels",
+      "ranking": 707,
+      "year": 1986,
+      "votes": 1402
+    },
+    {
+      "name": "Mario Bros.",
+      "ranking": 708,
+      "year": 1983,
+      "votes": 1401
+    },
+    {
+      "name": "Escape from Monkey Island",
+      "ranking": 709,
+      "year": 2000,
+      "votes": 1399
+    },
+    {
+      "name": "Spyro: Year of the Dragon",
+      "ranking": 710,
+      "year": 2000,
+      "votes": 1398
+    },
+    {
+      "name": "The World Is Not Enough",
+      "ranking": 711,
+      "year": 2000,
+      "votes": 1398
+    },
+    {
+      "name": "Killzone: Shadow Fall",
+      "ranking": 712,
+      "year": 2013,
+      "votes": 1395
+    },
+    {
+      "name": "Battlefield 1942",
+      "ranking": 713,
+      "year": 2002,
+      "votes": 1393
+    },
+    {
+      "name": "Ultimate Spider-Man",
+      "ranking": 714,
+      "year": 2005,
+      "votes": 1392
+    },
+    {
+      "name": "Roblox",
+      "ranking": 715,
+      "year": 2004,
+      "votes": 1389
+    },
+    {
+      "name": "Spyro 2: Ripto's Rage!",
+      "ranking": 716,
+      "year": 1999,
+      "votes": 1389
+    },
+    {
+      "name": "Conker's Bad Fur Day",
+      "ranking": 717,
+      "year": 2001,
+      "votes": 1388
+    },
+    {
+      "name": "Lego Marvel's Avengers",
+      "ranking": 718,
+      "year": 2016,
+      "votes": 1386
+    },
+    {
+      "name": "Dead by Daylight",
+      "ranking": 719,
+      "year": 2016,
+      "votes": 1382
+    },
+    {
+      "name": "Postal 2",
+      "ranking": 720,
+      "year": 2003,
+      "votes": 1380
+    },
+    {
+      "name": "Call of Duty: Vanguard",
+      "ranking": 721,
+      "year": 2021,
+      "votes": 1379
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "ranking": 722,
+      "year": 2013,
+      "votes": 1379
+    },
+    {
+      "name": "Worms",
+      "ranking": 723,
+      "year": 1995,
+      "votes": 1378
+    },
+    {
+      "name": "Super Meat Boy",
+      "ranking": 724,
+      "year": 2010,
+      "votes": 1377
+    },
+    {
+      "name": "Pokémon Emerald Version",
+      "ranking": 725,
+      "year": 2004,
+      "votes": 1374
+    },
+    {
+      "name": "Spider-Man: Web of Shadows",
+      "ranking": 726,
+      "year": 2008,
+      "votes": 1371
+    },
+    {
+      "name": "Quake 4",
+      "ranking": 727,
+      "year": 2005,
+      "votes": 1371
+    },
+    {
+      "name": "Harry Potter and the Goblet of Fire",
+      "ranking": 728,
+      "year": 2005,
+      "votes": 1370
+    },
+    {
+      "name": "Little Nightmares II",
+      "ranking": 729,
+      "year": 2021,
+      "votes": 1369
+    },
+    {
+      "name": "Sonic Mania",
+      "ranking": 730,
+      "year": 2017,
+      "votes": 1369
+    },
+    {
+      "name": "Hearthstone: Heroes of Warcraft",
+      "ranking": 731,
+      "year": 2014,
+      "votes": 1358
+    },
+    {
+      "name": "Mortal Kombat Trilogy",
+      "ranking": 732,
+      "year": 1996,
+      "votes": 1358
+    },
+    {
+      "name": "Star Wars: Jedi Knight - Dark Forces II",
+      "ranking": 733,
+      "year": 1997,
+      "votes": 1357
+    },
+    {
+      "name": "Ratchet & Clank: Rift Apart",
+      "ranking": 734,
+      "year": 2021,
+      "votes": 1355
+    },
+    {
+      "name": "Subnautica",
+      "ranking": 735,
+      "year": 2018,
+      "votes": 1352
+    },
+    {
+      "name": "Assassin's Creed III: Liberation",
+      "ranking": 736,
+      "year": 2012,
+      "votes": 1352
+    },
+    {
+      "name": "Street Fighter IV",
+      "ranking": 737,
+      "year": 2008,
+      "votes": 1351
+    },
+    {
+      "name": "GoldenEye",
+      "ranking": 738,
+      "year": 2010,
+      "votes": 1350
+    },
+    {
+      "name": "Lego the Lord of the Rings: The Video Game",
+      "ranking": 739,
+      "year": 2012,
+      "votes": 1349
+    },
+    {
+      "name": "Worms Armageddon",
+      "ranking": 740,
+      "year": 1999,
+      "votes": 1348
+    },
+    {
+      "name": "Alice: Madness Returns",
+      "ranking": 741,
+      "year": 2011,
+      "votes": 1343
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+      "ranking": 742,
+      "year": 1991,
+      "votes": 1342
+    },
+    {
+      "name": "Red Dead Revolver",
+      "ranking": 743,
+      "year": 2004,
+      "votes": 1340
+    },
+    {
+      "name": "Tekken 4",
+      "ranking": 744,
+      "year": 2001,
+      "votes": 1339
+    },
+    {
+      "name": "The Incredibles",
+      "ranking": 745,
+      "year": 2004,
+      "votes": 1337
+    },
+    {
+      "name": "Donkey Kong 64",
+      "ranking": 746,
+      "year": 1999,
+      "votes": 1329
+    },
+    {
+      "name": "Ratchet & Clank 2: Locked and Loaded",
+      "ranking": 747,
+      "year": 2003,
+      "votes": 1329
+    },
+    {
+      "name": "Crisis Core: Final Fantasy VII",
+      "ranking": 748,
+      "year": 2007,
+      "votes": 1327
+    },
+    {
+      "name": "FIFA Soccer 11",
+      "ranking": 749,
+      "year": 2010,
+      "votes": 1327
+    },
+    {
+      "name": "The Amazing Spider-Man 2",
+      "ranking": 750,
+      "year": 2014,
+      "votes": 1323
+    },
+    {
+      "name": "Rainbow Six: Vegas",
+      "ranking": 751,
+      "year": 2006,
+      "votes": 1320
+    },
+    {
+      "name": "Command & Conquer: Generals",
+      "ranking": 752,
+      "year": 2003,
+      "votes": 1318
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+      "ranking": 753,
+      "year": 1989,
+      "votes": 1317
+    },
+    {
+      "name": "Watch Dogs: Legion",
+      "ranking": 754,
+      "year": 2020,
+      "votes": 1316
+    },
+    {
+      "name": "Killzone",
+      "ranking": 755,
+      "year": 2004,
+      "votes": 1315
+    },
+    {
+      "name": "Okami",
+      "ranking": 756,
+      "year": 2006,
+      "votes": 1313
+    },
+    {
+      "name": "Genshin Impact",
+      "ranking": 757,
+      "year": 2020,
+      "votes": 1311
+    },
+    {
+      "name": "Resistance 2",
+      "ranking": 758,
+      "year": 2008,
+      "votes": 1310
+    },
+    {
+      "name": "Sonic Unleashed",
+      "ranking": 759,
+      "year": 2008,
+      "votes": 1308
+    },
+    {
+      "name": "World of Warcraft: Cataclysm",
+      "ranking": 760,
+      "year": 2010,
+      "votes": 1307
+    },
+    {
+      "name": "Metal Gear",
+      "ranking": 761,
+      "year": 1987,
+      "votes": 1306
+    },
+    {
+      "name": "Castlevania",
+      "ranking": 762,
+      "year": 1986,
+      "votes": 1305
+    },
+    {
+      "name": "Kingdom Hearts II: Final Mix+",
+      "ranking": 763,
+      "year": 2007,
+      "votes": 1304
+    },
+    {
+      "name": "Transformers: Revenge of the Fallen",
+      "ranking": 764,
+      "year": 2009,
+      "votes": 1302
+    },
+    {
+      "name": "Call of Duty: Modern Warfare II",
+      "ranking": 765,
+      "year": 2022,
+      "votes": 1298
+    },
+    {
+      "name": "FIFA 21",
+      "ranking": 766,
+      "year": 2020,
+      "votes": 1294
+    },
+    {
+      "name": "Thief",
+      "ranking": 767,
+      "year": 2014,
+      "votes": 1291
+    },
+    {
+      "name": "The Godfather II",
+      "ranking": 768,
+      "year": 2009,
+      "votes": 1289
+    },
+    {
+      "name": "inFamous: First Light",
+      "ranking": 769,
+      "year": 2014,
+      "votes": 1289
+    },
+    {
+      "name": "The Dark Pictures: House of Ashes",
+      "ranking": 770,
+      "year": 2021,
+      "votes": 1288
+    },
+    {
+      "name": "Hitman 3",
+      "ranking": 771,
+      "year": 2021,
+      "votes": 1288
+    },
+    {
+      "name": "ARK: Survival Evolved",
+      "ranking": 772,
+      "year": 2015,
+      "votes": 1286
+    },
+    {
+      "name": "Unreal Tournament 2004",
+      "ranking": 773,
+      "year": 2004,
+      "votes": 1281
+    },
+    {
+      "name": "Abzû",
+      "ranking": 774,
+      "year": 2016,
+      "votes": 1279
+    },
+    {
+      "name": "Paper Mario",
+      "ranking": 775,
+      "year": 2000,
+      "votes": 1278
+    },
+    {
+      "name": "Sly Raccoon",
+      "ranking": 776,
+      "year": 2002,
+      "votes": 1276
+    },
+    {
+      "name": "Warcraft: Orcs & Humans",
+      "ranking": 777,
+      "year": 1994,
+      "votes": 1275
+    },
+    {
+      "name": "Sonic Generations",
+      "ranking": 778,
+      "year": 2011,
+      "votes": 1273
+    },
+    {
+      "name": "Dead Island Riptide",
+      "ranking": 779,
+      "year": 2013,
+      "votes": 1271
+    },
+    {
+      "name": "Superhot",
+      "ranking": 780,
+      "year": 2016,
+      "votes": 1267
+    },
+    {
+      "name": "Double Dragon",
+      "ranking": 781,
+      "year": 1987,
+      "votes": 1266
+    },
+    {
+      "name": "The Simpsons Game",
+      "ranking": 782,
+      "year": 2007,
+      "votes": 1265
+    },
+    {
+      "name": "The Awesome Adventures of Captain Spirit",
+      "ranking": 783,
+      "year": 2018,
+      "votes": 1262
+    },
+    {
+      "name": "Aliens: Colonial Marines",
+      "ranking": 784,
+      "year": 2013,
+      "votes": 1261
+    },
+    {
+      "name": "Call of Duty: Warzone",
+      "ranking": 785,
+      "year": 2020,
+      "votes": 1258
+    },
+    {
+      "name": "Soulcalibur II",
+      "ranking": 786,
+      "year": 2003,
+      "votes": 1256
+    },
+    {
+      "name": "Kingdom Come: Deliverance",
+      "ranking": 787,
+      "year": 2018,
+      "votes": 1255
+    },
+    {
+      "name": "Need for Speed: ProStreet",
+      "ranking": 788,
+      "year": 2007,
+      "votes": 1255
+    },
+    {
+      "name": "World of Warcraft: Mists of Pandaria",
+      "ranking": 789,
+      "year": 2012,
+      "votes": 1255
+    },
+    {
+      "name": "Baldur's Gate II: Throne of Bhaal",
+      "ranking": 790,
+      "year": 2001,
+      "votes": 1253
+    },
+    {
+      "name": "Murdered: Soul Suspect",
+      "ranking": 791,
+      "year": 2014,
+      "votes": 1246
+    },
+    {
+      "name": "Driver",
+      "ranking": 792,
+      "year": 1999,
+      "votes": 1246
+    },
+    {
+      "name": "Five Nights at Freddy's 3",
+      "ranking": 793,
+      "year": 2015,
+      "votes": 1242
+    },
+    {
+      "name": "Heroes of Might and Magic III: The Restoration of Erathia",
+      "ranking": 794,
+      "year": 1999,
+      "votes": 1242
+    },
+    {
+      "name": "Shenmue",
+      "ranking": 795,
+      "year": 1999,
+      "votes": 1241
+    },
+    {
+      "name": "Mortal Kombat: Mystification",
+      "ranking": 796,
+      "year": 2004,
+      "votes": 1240
+    },
+    {
+      "name": "Sonic Mania Plus",
+      "ranking": 797,
+      "year": 2018,
+      "votes": 1237
+    },
+    {
+      "name": "Sonic Boom: Rise of Lyric",
+      "ranking": 798,
+      "year": 2014,
+      "votes": 1237
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 3",
+      "ranking": 799,
+      "year": 2001,
+      "votes": 1232
+    },
+    {
+      "name": "Star Wars: The Force Unleashed - Ultimate Sith Edition",
+      "ranking": 800,
+      "year": 2009,
+      "votes": 1230
+    },
+    {
+      "name": "Journey to the Center of the Earth",
+      "ranking": 801,
+      "year": 2008,
+      "votes": 1229
+    },
+    {
+      "name": "Pokémon X",
+      "ranking": 802,
+      "year": 2013,
+      "votes": 1229
+    },
+    {
+      "name": "Sonic the Hedgehog",
+      "ranking": 803,
+      "year": 2006,
+      "votes": 1228
+    },
+    {
+      "name": "Ori and the Will of the Wisps",
+      "ranking": 804,
+      "year": 2020,
+      "votes": 1225
+    },
+    {
+      "name": "Medal of Honor: Pacific Assault",
+      "ranking": 805,
+      "year": 2004,
+      "votes": 1225
+    },
+    {
+      "name": "Dying Light 2: Stay Human",
+      "ranking": 806,
+      "year": 2022,
+      "votes": 1224
+    },
+    {
+      "name": "Super Mario Land",
+      "ranking": 807,
+      "year": 1989,
+      "votes": 1220
+    },
+    {
+      "name": "The Incredible Hulk",
+      "ranking": 808,
+      "year": 2008,
+      "votes": 1217
+    },
+    {
+      "name": "Ratchet & Clank: Tools of Destruction",
+      "ranking": 809,
+      "year": 2007,
+      "votes": 1217
+    },
+    {
+      "name": "Tomb Raider: The Last Revelation",
+      "ranking": 810,
+      "year": 1999,
+      "votes": 1213
+    },
+    {
+      "name": "Pokémon Go",
+      "ranking": 811,
+      "year": 2016,
+      "votes": 1213
+    },
+    {
+      "name": "The Lord of the Rings: The Third Age",
+      "ranking": 812,
+      "year": 2004,
+      "votes": 1210
+    },
+    {
+      "name": "Medieval II: Total War",
+      "ranking": 813,
+      "year": 2006,
+      "votes": 1205
+    },
+    {
+      "name": "The Meaning of Life",
+      "ranking": 814,
+      "year": 1997,
+      "votes": 1205
+    },
+    {
+      "name": "F.3.A.R.",
+      "ranking": 815,
+      "year": 2011,
+      "votes": 1200
+    },
+    {
+      "name": "Dreamfall: The Longest Journey",
+      "ranking": 816,
+      "year": 2006,
+      "votes": 1198
+    },
+    {
+      "name": "Star Wars: Episode I - The Phantom Menace",
+      "ranking": 817,
+      "year": 1999,
+      "votes": 1197
+    },
+    {
+      "name": "Stardew Valley",
+      "ranking": 818,
+      "year": 2016,
+      "votes": 1193
+    },
+    {
+      "name": "Mortal Kombat: Deadly Alliance",
+      "ranking": 819,
+      "year": 2002,
+      "votes": 1192
+    },
+    {
+      "name": "Mega Man II",
+      "ranking": 820,
+      "year": 1988,
+      "votes": 1192
+    },
+    {
+      "name": "Prince of Persia",
+      "ranking": 821,
+      "year": 1989,
+      "votes": 1191
+    },
+    {
+      "name": "Need for Speed III: Hot Pursuit",
+      "ranking": 822,
+      "year": 1998,
+      "votes": 1185
+    },
+    {
+      "name": "Tekken Tag Tournament",
+      "ranking": 823,
+      "year": 1999,
+      "votes": 1185
+    },
+    {
+      "name": "Lego Indiana Jones 2: The Adventure Continues",
+      "ranking": 824,
+      "year": 2009,
+      "votes": 1180
+    },
+    {
+      "name": "Sly 2: Band of Thieves",
+      "ranking": 825,
+      "year": 2004,
+      "votes": 1173
+    },
+    {
+      "name": "Marvel: Ultimate Alliance 2",
+      "ranking": 826,
+      "year": 2009,
+      "votes": 1172
+    },
+    {
+      "name": "Homefront",
+      "ranking": 827,
+      "year": 2011,
+      "votes": 1171
+    },
+    {
+      "name": "FIFA 15",
+      "ranking": 828,
+      "year": 2014,
+      "votes": 1171
+    },
+    {
+      "name": "Fantastic Four",
+      "ranking": 829,
+      "year": 2005,
+      "votes": 1168
+    },
+    {
+      "name": "Pokémon: Blue Version",
+      "ranking": 830,
+      "year": 1996,
+      "votes": 1168
+    },
+    {
+      "name": "Paper Mario: The Thousand-Year Door",
+      "ranking": 831,
+      "year": 2004,
+      "votes": 1167
+    },
+    {
+      "name": "Metal Gear Solid",
+      "ranking": 832,
+      "year": 2000,
+      "votes": 1166
+    },
+    {
+      "name": "For Honor",
+      "ranking": 833,
+      "year": 2017,
+      "votes": 1163
+    },
+    {
+      "name": "Celeste",
+      "ranking": 834,
+      "year": 2018,
+      "votes": 1163
+    },
+    {
+      "name": "Astro's Playroom",
+      "ranking": 835,
+      "year": 2020,
+      "votes": 1162
+    },
+    {
+      "name": "Persona 4",
+      "ranking": 836,
+      "year": 2008,
+      "votes": 1160
+    },
+    {
+      "name": "Oxenfree",
+      "ranking": 837,
+      "year": 2016,
+      "votes": 1159
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time 3D",
+      "ranking": 838,
+      "year": 2011,
+      "votes": 1159
+    },
+    {
+      "name": "The Longest Journey",
+      "ranking": 839,
+      "year": 1999,
+      "votes": 1156
+    },
+    {
+      "name": "System Shock 2",
+      "ranking": 840,
+      "year": 1999,
+      "votes": 1154
+    },
+    {
+      "name": "Pokémon Ruby Version",
+      "ranking": 841,
+      "year": 2002,
+      "votes": 1152
+    },
+    {
+      "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+      "ranking": 842,
+      "year": 1996,
+      "votes": 1151
+    },
+    {
+      "name": "The Saboteur",
+      "ranking": 843,
+      "year": 2009,
+      "votes": 1148
+    },
+    {
+      "name": "Mirror's Edge: Catalyst",
+      "ranking": 844,
+      "year": 2016,
+      "votes": 1143
+    },
+    {
+      "name": "Tekken 7",
+      "ranking": 845,
+      "year": 2015,
+      "votes": 1141
+    },
+    {
+      "name": "FIFA 10",
+      "ranking": 846,
+      "year": 2009,
+      "votes": 1141
+    },
+    {
+      "name": "Spyro Reignited Trilogy",
+      "ranking": 847,
+      "year": 2018,
+      "votes": 1140
+    },
+    {
+      "name": "Star Wars: Episode I - Racer",
+      "ranking": 848,
+      "year": 1999,
+      "votes": 1138
+    },
+    {
+      "name": "Metal Gear 2: Solid Snake",
+      "ranking": 849,
+      "year": 1990,
+      "votes": 1138
+    },
+    {
+      "name": "Silent Hill: Downpour",
+      "ranking": 850,
+      "year": 2011,
+      "votes": 1137
+    },
+    {
+      "name": "Ratchet & Clank: A Crack in Time",
+      "ranking": 851,
+      "year": 2009,
+      "votes": 1136
+    },
+    {
+      "name": "Medal of Honor: Rising Sun",
+      "ranking": 852,
+      "year": 2003,
+      "votes": 1136
+    },
+    {
+      "name": "FIFA 22",
+      "ranking": 853,
+      "year": 2021,
+      "votes": 1134
+    },
+    {
+      "name": "Grand Theft Auto: London, 1969",
+      "ranking": 854,
+      "year": 1999,
+      "votes": 1133
+    },
+    {
+      "name": "Broken Sword: The Shadow of the Templars",
+      "ranking": 855,
+      "year": 1996,
+      "votes": 1133
+    },
+    {
+      "name": "Dead Rising 3",
+      "ranking": 856,
+      "year": 2013,
+      "votes": 1131
+    },
+    {
+      "name": "Need for Speed",
+      "ranking": 857,
+      "year": 2015,
+      "votes": 1130
+    },
+    {
+      "name": "Silent Hill: Origins",
+      "ranking": 858,
+      "year": 2007,
+      "votes": 1123
+    },
+    {
+      "name": "Mega Man",
+      "ranking": 859,
+      "year": 1987,
+      "votes": 1123
+    },
+    {
+      "name": "Bastion",
+      "ranking": 860,
+      "year": 2011,
+      "votes": 1119
+    },
+    {
+      "name": "Crazy Taxi",
+      "ranking": 861,
+      "year": 1999,
+      "votes": 1118
+    },
+    {
+      "name": "Clash of Clans",
+      "ranking": 862,
+      "year": 2012,
+      "votes": 1115
+    },
+    {
+      "name": "Happy Wheels",
+      "ranking": 863,
+      "year": 2010,
+      "votes": 1112
+    },
+    {
+      "name": "Nioh",
+      "ranking": 864,
+      "year": 2017,
+      "votes": 1110
+    },
+    {
+      "name": "Rayman Origins",
+      "ranking": 865,
+      "year": 2011,
+      "votes": 1109
+    },
+    {
+      "name": "Superman Returns",
+      "ranking": 866,
+      "year": 2006,
+      "votes": 1108
+    },
+    {
+      "name": "Super Mario All-Stars - 25th Anniversary Edition",
+      "ranking": 867,
+      "year": 1993,
+      "votes": 1108
+    },
+    {
+      "name": "Vampyr",
+      "ranking": 868,
+      "year": 2018,
+      "votes": 1106
+    },
+    {
+      "name": "Neverwinter Nights",
+      "ranking": 869,
+      "year": 2002,
+      "votes": 1105
+    },
+    {
+      "name": "Animal Crossing: New Leaf",
+      "ranking": 870,
+      "year": 2012,
+      "votes": 1100
+    },
+    {
+      "name": "The Walking Dead: Survival Instinct",
+      "ranking": 871,
+      "year": 2013,
+      "votes": 1096
+    },
+    {
+      "name": "Sonic Heroes",
+      "ranking": 872,
+      "year": 2003,
+      "votes": 1096
+    },
+    {
+      "name": "Lara Croft Tomb Raider: The Angel of Darkness",
+      "ranking": 873,
+      "year": 2003,
+      "votes": 1095
+    },
+    {
+      "name": "Jade Empire",
+      "ranking": 874,
+      "year": 2005,
+      "votes": 1095
+    },
+    {
+      "name": "CR: Enter the Matrix",
+      "ranking": 875,
+      "year": 2009,
+      "votes": 1095
+    },
+    {
+      "name": "Tony Hawk's Pro Skater",
+      "ranking": 876,
+      "year": 1999,
+      "votes": 1094
+    },
+    {
+      "name": "Pirates of the Caribbean",
+      "ranking": 877,
+      "year": 2003,
+      "votes": 1093
+    },
+    {
+      "name": "Kingdom Hearts: 358/2 Days",
+      "ranking": 878,
+      "year": 2009,
+      "votes": 1092
+    },
+    {
+      "name": "Pokémon Y",
+      "ranking": 879,
+      "year": 2013,
+      "votes": 1092
+    },
+    {
+      "name": "Need for Speed: Payback",
+      "ranking": 880,
+      "year": 2017,
+      "votes": 1085
+    },
+    {
+      "name": "Alan Wake's American Nightmare",
+      "ranking": 881,
+      "year": 2012,
+      "votes": 1085
+    },
+    {
+      "name": "EarthBound",
+      "ranking": 882,
+      "year": 1994,
+      "votes": 1084
+    },
+    {
+      "name": "Sonic Forces",
+      "ranking": 883,
+      "year": 2017,
+      "votes": 1083
+    },
+    {
+      "name": "Aliens vs. Predator 2",
+      "ranking": 884,
+      "year": 2001,
+      "votes": 1083
+    },
+    {
+      "name": "Saints Row: Gat Out of Hell",
+      "ranking": 885,
+      "year": 2015,
+      "votes": 1079
+    },
+    {
+      "name": "Pokémon Silver Version",
+      "ranking": 886,
+      "year": 1999,
+      "votes": 1079
+    },
+    {
+      "name": "Pirates of the Caribbean: At World's End",
+      "ranking": 887,
+      "year": 2007,
+      "votes": 1077
+    },
+    {
+      "name": "LittleBigPlanet 2",
+      "ranking": 888,
+      "year": 2011,
+      "votes": 1077
+    },
+    {
+      "name": "Doom 3: Resurrection of Evil",
+      "ranking": 889,
+      "year": 2005,
+      "votes": 1077
+    },
+    {
+      "name": "Heavenly Sword",
+      "ranking": 890,
+      "year": 2007,
+      "votes": 1075
+    },
+    {
+      "name": "Streets of Rage",
+      "ranking": 891,
+      "year": 1991,
+      "votes": 1075
+    },
+    {
+      "name": "Erica",
+      "ranking": 892,
+      "year": 2019,
+      "votes": 1068
+    },
+    {
+      "name": "Civilization VI",
+      "ranking": 893,
+      "year": 2016,
+      "votes": 1067
+    },
+    {
+      "name": "Sunset Overdrive",
+      "ranking": 894,
+      "year": 2014,
+      "votes": 1065
+    },
+    {
+      "name": "Prey",
+      "ranking": 895,
+      "year": 2006,
+      "votes": 1062
+    },
+    {
+      "name": "Star Wars: Dark Forces",
+      "ranking": 896,
+      "year": 1995,
+      "votes": 1060
+    },
+    {
+      "name": "Counter-Strike: Condition Zero",
+      "ranking": 897,
+      "year": 2004,
+      "votes": 1058
+    },
+    {
+      "name": "Crash Bash",
+      "ranking": 898,
+      "year": 2000,
+      "votes": 1058
+    },
+    {
+      "name": "Kirby Super Star",
+      "ranking": 899,
+      "year": 1996,
+      "votes": 1056
+    },
+    {
+      "name": "Lego Dimensions",
+      "ranking": 900,
+      "year": 2015,
+      "votes": 1054
+    },
+    {
+      "name": "World of Warcraft: Warlords of Draenor",
+      "ranking": 901,
+      "year": 2014,
+      "votes": 1054
+    },
+    {
+      "name": "Thor: God of Thunder",
+      "ranking": 902,
+      "year": 2011,
+      "votes": 1053
+    },
+    {
+      "name": "Syberia",
+      "ranking": 903,
+      "year": 2002,
+      "votes": 1053
+    },
+    {
+      "name": "Golden Axe",
+      "ranking": 904,
+      "year": 1989,
+      "votes": 1050
+    },
+    {
+      "name": "Super Smash Bros. for Nintendo 3DS",
+      "ranking": 905,
+      "year": 2014,
+      "votes": 1050
+    },
+    {
+      "name": "Manhunt 2",
+      "ranking": 906,
+      "year": 2007,
+      "votes": 1048
+    },
+    {
+      "name": "The Lego Movie Videogame",
+      "ranking": 907,
+      "year": 2014,
+      "votes": 1047
+    },
+    {
+      "name": "Clash Royale",
+      "ranking": 908,
+      "year": 2016,
+      "votes": 1038
+    },
+    {
+      "name": "Sam and Max Hit the Road",
+      "ranking": 909,
+      "year": 1993,
+      "votes": 1034
+    },
+    {
+      "name": "Demon's Souls",
+      "ranking": 910,
+      "year": 2020,
+      "votes": 1033
+    },
+    {
+      "name": "Dino Crisis 2",
+      "ranking": 911,
+      "year": 2000,
+      "votes": 1033
+    },
+    {
+      "name": "Lego DC Super-Villains",
+      "ranking": 912,
+      "year": 2018,
+      "votes": 1032
+    },
+    {
+      "name": "Duke Nukem",
+      "ranking": 913,
+      "year": 1991,
+      "votes": 1032
+    },
+    {
+      "name": "Pokemon: Crystal Version",
+      "ranking": 914,
+      "year": 2000,
+      "votes": 1031
+    },
+    {
+      "name": "Sly 3: Honour Among Thieves",
+      "ranking": 915,
+      "year": 2005,
+      "votes": 1028
+    },
+    {
+      "name": "A Series of Unfortunate Events",
+      "ranking": 916,
+      "year": 2004,
+      "votes": 1026
+    },
+    {
+      "name": "Transformers: The Game",
+      "ranking": 917,
+      "year": 2007,
+      "votes": 1026
+    },
+    {
+      "name": "The Divergent Series: Insurgent - Shatter Reality",
+      "ranking": 918,
+      "year": 2015,
+      "votes": 1025
+    },
+    {
+      "name": "Warcraft II: Beyond the Dark Portal",
+      "ranking": 919,
+      "year": 1996,
+      "votes": 1024
+    },
+    {
+      "name": "Grim Fandango: Remastered",
+      "ranking": 920,
+      "year": 2015,
+      "votes": 1022
+    },
+    {
+      "name": "Streets of Rage 2",
+      "ranking": 921,
+      "year": 1992,
+      "votes": 1022
+    },
+    {
+      "name": "BioShock 2: Minerva's Den",
+      "ranking": 922,
+      "year": 2010,
+      "votes": 1021
+    },
+    {
+      "name": "Final Fantasy XIII-2",
+      "ranking": 923,
+      "year": 2011,
+      "votes": 1020
+    },
+    {
+      "name": "Call of Duty: United Offensive",
+      "ranking": 924,
+      "year": 2004,
+      "votes": 1017
+    },
+    {
+      "name": "Kirby's Adventure",
+      "ranking": 925,
+      "year": 1993,
+      "votes": 1017
+    },
+    {
+      "name": "Independence Day",
+      "ranking": 926,
+      "year": 1997,
+      "votes": 1016
+    },
+    {
+      "name": "The Legend of Zelda: Phantom Hourglass",
+      "ranking": 927,
+      "year": 2007,
+      "votes": 1016
+    },
+    {
+      "name": "Guitar Hero: World Tour",
+      "ranking": 928,
+      "year": 2008,
+      "votes": 1015
+    },
+    {
+      "name": "Donkey Kong Country Returns",
+      "ranking": 929,
+      "year": 2010,
+      "votes": 1014
+    },
+    {
+      "name": "Minesweeper",
+      "ranking": 930,
+      "year": 1989,
+      "votes": 1014
+    },
+    {
+      "name": "Red Faction: Guerrilla",
+      "ranking": 931,
+      "year": 2009,
+      "votes": 1013
+    },
+    {
+      "name": "Avatar: The Last Airbender - The Legend of Aang",
+      "ranking": 932,
+      "year": 2006,
+      "votes": 1012
+    },
+    {
+      "name": "Call of Juarez: Bound in Blood",
+      "ranking": 933,
+      "year": 2009,
+      "votes": 1011
+    },
+    {
+      "name": "X-Men Legends II: Rise of Apocalypse",
+      "ranking": 934,
+      "year": 2005,
+      "votes": 1010
+    },
+    {
+      "name": "Lego the Hobbit: The Video Game",
+      "ranking": 935,
+      "year": 2014,
+      "votes": 1009
+    },
+    {
+      "name": "Five Nights at Freddy's 4: The Final Chapter",
+      "ranking": 936,
+      "year": 2015,
+      "votes": 1008
+    },
+    {
+      "name": "Harry Potter and the Half-Blood Prince",
+      "ranking": 937,
+      "year": 2009,
+      "votes": 1008
+    },
+    {
+      "name": "Sonic the Hedgehog CD",
+      "ranking": 938,
+      "year": 1993,
+      "votes": 1008
+    },
+    {
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "ranking": 939,
+      "year": 2009,
+      "votes": 1007
+    },
+    {
+      "name": "Remember Me",
+      "ranking": 940,
+      "year": 2013,
+      "votes": 1007
+    },
+    {
+      "name": "Lego Marvel Super Heroes 2",
+      "ranking": 941,
+      "year": 2017,
+      "votes": 1005
+    },
+    {
+      "name": "Guitar Hero",
+      "ranking": 942,
+      "year": 2005,
+      "votes": 1005
+    },
+    {
+      "name": "Metroid Prime 3: Corruption",
+      "ranking": 943,
+      "year": 2007,
+      "votes": 1004
+    },
+    {
+      "name": "Tony Hawk's Underground",
+      "ranking": 944,
+      "year": 2003,
+      "votes": 1003
+    },
+    {
+      "name": "Call of Juarez: Gunslinger",
+      "ranking": 945,
+      "year": 2013,
+      "votes": 1000
+    },
+    {
+      "name": "Soulcalibur IV",
+      "ranking": 946,
+      "year": 2008,
+      "votes": 999
+    },
+    {
+      "name": "Iron Man 2",
+      "ranking": 947,
+      "year": 2010,
+      "votes": 998
+    },
+    {
+      "name": "Pokémon: Stadium",
+      "ranking": 948,
+      "year": 1999,
+      "votes": 994
+    },
+    {
+      "name": "Burnout 3: Takedown",
+      "ranking": 949,
+      "year": 2004,
+      "votes": 993
+    },
+    {
+      "name": "Metroid Prime 2: Echoes",
+      "ranking": 950,
+      "year": 2004,
+      "votes": 992
+    },
+    {
+      "name": "FIFA 09",
+      "ranking": 951,
+      "year": 2008,
+      "votes": 992
+    },
+    {
+      "name": "New Super Luigi U",
+      "ranking": 952,
+      "year": 2013,
+      "votes": 992
+    },
+    {
+      "name": "Forza Horizon 5",
+      "ranking": 953,
+      "year": 2021,
+      "votes": 991
+    },
+    {
+      "name": "Silent Hill: Shattered Memories",
+      "ranking": 954,
+      "year": 2009,
+      "votes": 991
+    },
+    {
+      "name": "Hotline Miami 2: Wrong Number",
+      "ranking": 955,
+      "year": 2015,
+      "votes": 991
+    },
+    {
+      "name": "Twelve Minutes",
+      "ranking": 956,
+      "year": 2021,
+      "votes": 989
+    },
+    {
+      "name": "The Division 2",
+      "ranking": 957,
+      "year": 2019,
+      "votes": 989
+    },
+    {
+      "name": "Assassin's Creed: Freedom Cry",
+      "ranking": 958,
+      "year": 2013,
+      "votes": 989
+    },
+    {
+      "name": "Need for Speed: Shift",
+      "ranking": 959,
+      "year": 2009,
+      "votes": 989
+    },
+    {
+      "name": "Dr. Mario",
+      "ranking": 960,
+      "year": 1990,
+      "votes": 987
+    },
+    {
+      "name": "Grand Theft Auto: Episodes from Liberty City",
+      "ranking": 961,
+      "year": 2009,
+      "votes": 985
+    },
+    {
+      "name": "The Legend of Zelda: The Minish Cap",
+      "ranking": 962,
+      "year": 2004,
+      "votes": 982
+    },
+    {
+      "name": "Star Wars: Shadows of the Empire",
+      "ranking": 963,
+      "year": 1996,
+      "votes": 979
+    },
+    {
+      "name": "True Crime: New York City",
+      "ranking": 964,
+      "year": 2005,
+      "votes": 977
+    },
+    {
+      "name": "Oddworld: Abe's Oddysee",
+      "ranking": 965,
+      "year": 1997,
+      "votes": 975
+    },
+    {
+      "name": "World of Warcraft: Legion",
+      "ranking": 966,
+      "year": 2016,
+      "votes": 972
+    },
+    {
+      "name": "Just Cause",
+      "ranking": 967,
+      "year": 2006,
+      "votes": 972
+    },
+    {
+      "name": "The Lord of the Rings: War in the North",
+      "ranking": 968,
+      "year": 2011,
+      "votes": 970
+    },
+    {
+      "name": "Gran Turismo 4",
+      "ranking": 969,
+      "year": 2004,
+      "votes": 969
+    },
+    {
+      "name": "Jurassic World Evolution",
+      "ranking": 970,
+      "year": 2018,
+      "votes": 968
+    },
+    {
+      "name": "XIII",
+      "ranking": 971,
+      "year": 2003,
+      "votes": 967
+    },
+    {
+      "name": "StarCraft II: Legacy of the Void",
+      "ranking": 972,
+      "year": 2015,
+      "votes": 966
+    },
+    {
+      "name": "Pokémon LeafGreen Version",
+      "ranking": 973,
+      "year": 2004,
+      "votes": 966
+    },
+    {
+      "name": "Alien vs. Predator",
+      "ranking": 974,
+      "year": 1994,
+      "votes": 965
+    },
+    {
+      "name": "Star Trek",
+      "ranking": 975,
+      "year": 2013,
+      "votes": 963
+    },
+    {
+      "name": "Legacy of Kain: Soul Reaver",
+      "ranking": 976,
+      "year": 1999,
+      "votes": 959
+    },
+    {
+      "name": "Kingdom Hearts 3D: Dream Drop Distance",
+      "ranking": 977,
+      "year": 2012,
+      "votes": 958
+    },
+    {
+      "name": "Need for Speed II",
+      "ranking": 978,
+      "year": 1997,
+      "votes": 957
+    },
+    {
+      "name": "Just Cause 4",
+      "ranking": 979,
+      "year": 2018,
+      "votes": 955
+    },
+    {
+      "name": "Aladdin",
+      "ranking": 980,
+      "year": 1993,
+      "votes": 953
+    },
+    {
+      "name": "Civilization III",
+      "ranking": 981,
+      "year": 2001,
+      "votes": 953
+    },
+    {
+      "name": "Shadow the Hedgehog",
+      "ranking": 982,
+      "year": 2005,
+      "votes": 952
+    },
+    {
+      "name": "Fire Emblem: Awakening",
+      "ranking": 983,
+      "year": 2012,
+      "votes": 952
+    },
+    {
+      "name": "Age of Empires: The Age of Kings",
+      "ranking": 984,
+      "year": 2006,
+      "votes": 950
+    },
+    {
+      "name": "Lollipop Chainsaw",
+      "ranking": 985,
+      "year": 2012,
+      "votes": 949
+    },
+    {
+      "name": "Crash Twinsanity",
+      "ranking": 986,
+      "year": 2004,
+      "votes": 949
+    },
+    {
+      "name": "Chrono Cross",
+      "ranking": 987,
+      "year": 1999,
+      "votes": 949
+    },
+    {
+      "name": "Yakuza Kiwami",
+      "ranking": 988,
+      "year": 2016,
+      "votes": 948
+    },
+    {
+      "name": "Unreal Tournament III",
+      "ranking": 989,
+      "year": 2007,
+      "votes": 947
+    },
+    {
+      "name": "Def Jam: Fight for NY",
+      "ranking": 990,
+      "year": 2004,
+      "votes": 945
+    },
+    {
+      "name": "Gran Turismo",
+      "ranking": 991,
+      "year": 1997,
+      "votes": 945
+    },
+    {
+      "name": "Pokémon Platinum Version",
+      "ranking": 992,
+      "year": 2008,
+      "votes": 944
+    },
+    {
+      "name": "The Dig",
+      "ranking": 993,
+      "year": 1995,
+      "votes": 943
+    },
+    {
+      "name": "Civilization II",
+      "ranking": 994,
+      "year": 1996,
+      "votes": 943
+    },
+    {
+      "name": "Animal Crossing",
+      "ranking": 995,
+      "year": 2001,
+      "votes": 942
+    },
+    {
+      "name": "FIFA 07",
+      "ranking": 996,
+      "year": 2006,
+      "votes": 942
+    },
+    {
+      "name": "Everybody's Gone to the Rapture",
+      "ranking": 997,
+      "year": 2015,
+      "votes": 938
+    },
+    {
+      "name": "Rock Band",
+      "ranking": 998,
+      "year": 2007,
+      "votes": 938
+    },
+    {
+      "name": "Braid",
+      "ranking": 999,
+      "year": 2008,
+      "votes": 938
+    }
+  ]
 }

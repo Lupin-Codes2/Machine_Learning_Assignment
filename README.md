@@ -26,4 +26,4 @@ Both endpoints validate input and return a JSON prediction along with the releva
 
 ## GitHub Pages
 
-The published GitHub Pages site is fully static. It loads the trained model parameters from `model-parameters.json` and runs both predictions in the visitor's browser, so it does not need a running FastAPI server. Keep this file in sync with the fitted models whenever you retrain them.
+The published GitHub Pages site is fully static. It loads the trained model parameters and game lookup data from `model-parameters.json` and runs both predictions in the visitor's browser, so it does not need a running FastAPI server. The classifier lets visitors search for a game by name and fills in its ranking, year, and vote count. Keep the model parameters and game list in this file in sync with the dataset whenever you retrain or update the data.

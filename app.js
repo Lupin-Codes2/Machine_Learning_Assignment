@@ -32,15 +32,18 @@ function predictGenre(features, model) {
 }
 
 function readFeatures(form) {
+  const formData = new FormData(form);
   const features = Object.fromEntries(
-    [...new FormData(form)].map(([name, value]) => [name, Number(value)]),
+    [...formData]
+      .filter(([name]) => name !== "game")
+      .map(([name, value]) => [name, Number(value)]),
   );
 
   if (Object.values(features).some((value) => !Number.isFinite(value))) {
     throw new Error("Enter a valid number for every field.");
   }
 
-  return features;
+  return { ...features, game: String(formData.get("game") || "").trim() };
 }
 
 function showError(result, error) {
@@ -59,8 +62,9 @@ function connectForm({ formId, resultId, metricId, predict, format, metric }) {
     result.classList.remove("error");
 
     try {
-      const output = predict(readFeatures(form));
-      result.textContent = format(output);
+      const features = readFeatures(form);
+      const output = predict(features);
+      result.textContent = format(output, features);
       document.getElementById(metricId).textContent = metric();
       result.hidden = false;
     } catch (error) {
@@ -75,6 +79,31 @@ async function initialize() {
     throw new Error(`Model parameters could not be loaded (${response.status}).`);
   }
   const models = await response.json();
+  const classificationForm = document.getElementById("classification-form");
+  const gameInput = classificationForm.elements.game;
+  const gameOptions = document.getElementById("game-options");
+  const gamesByName = new Map(
+    models.games.map((game) => [game.name.toLocaleLowerCase(), game]),
+  );
+
+  gameOptions.replaceChildren(
+    ...models.games.map((game) => {
+      const option = document.createElement("option");
+      option.value = game.name;
+      return option;
+    }),
+  );
+
+  gameInput.addEventListener("change", () => {
+    const game = gamesByName.get(gameInput.value.trim().toLocaleLowerCase());
+    if (!game) {
+      return;
+    }
+
+    classificationForm.elements.ranking.value = game.ranking;
+    classificationForm.elements.year.value = game.year;
+    classificationForm.elements.votes.value = game.votes;
+  });
 
   connectForm({
     formId: "regression-form",
@@ -91,8 +120,12 @@ async function initialize() {
     resultId: "classification-result",
     metricId: "classification-metric",
     predict: (features) => predictGenre(features, models.classification),
-    format: ({ genre, confidence }) =>
-      `Predicted primary genre: ${genre} · Confidence ${(confidence * 100).toFixed(1)}%`,
+    format: ({ genre, confidence }, features) => {
+      const gameContext = features.game
+        ? ` for ${features.game} (#${features.ranking}, ${features.year}, ${features.votes.toLocaleString("en-US")} votes)`
+        : "";
+      return `Predicted primary genre${gameContext}: ${genre} · Confidence ${(confidence * 100).toFixed(1)}%`;
+    },
     metric: () => `Accuracy ${(models.classification.accuracy * 100).toFixed(1)}%`,
   });
 
